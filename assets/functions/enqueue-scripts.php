@@ -21,8 +21,8 @@ function site_scripts() {
     wp_enqueue_script( 'app-js', get_template_directory_uri() . '/assets/js/app.js', array( 'jquery', 'jquery-ui'), '', true );
 
     // PhotoSwipe is an incredibly featured lightboxing script.
-    wp_enqueue_script( 'photoswipe', get_template_directory_uri() . '/assets/js/scripts/min/photoswipe-min.js', array(), '4.1.1', false );
-    wp_enqueue_script( 'photoswipe-ui-default', get_template_directory_uri() . '/assets/js/scripts/min/photoswipe-ui-default-min.js', array(), '4.1.1', false );
+    wp_enqueue_script( 'photoswipe', get_template_directory_uri() . '/bower_components/photoswipe/dist/photoswipe.min.js', array(), '4.1.1', false );
+    wp_enqueue_script( 'photoswipe-ui-default', get_template_directory_uri() . '/bower_components/photoswipe/dist/photoswipe-ui-default.min.js', array(), '4.1.1', false );
     wp_enqueue_script( 'photoswipe-settings', get_template_directory_uri() . '/assets/js/scripts/min/photoswipe-settings-min.js', array(), '4.1.1', true );
 
     // Comment reply script for threaded comments

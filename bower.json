@@ -1,8 +1,10 @@
 {
   "name": "JointsWP",
   "private": true,
-  "ignore":  [],
+  "ignore": [],
   "dependencies": {
-    "foundation-sites": ">=6.1"
+    "foundation-sites": ">=6.1",
+    "photoswipe": "^4.1.1",
+    "countUp.js": "^1.7.1"
   }
 }
