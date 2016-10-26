@@ -4621,6 +4621,8 @@ nav#acme {
       color: #fefefe;
       overflow: hidden;
       width: auto; }
+      nav#acme div#container div#case-studies div.case-study {
+        background-size: cover; }
 
 .top-bar .title-area {
   z-index: 1; }
@@ -4679,8 +4681,8 @@ section#call-to-action {
     color: #383534; }
 
 section#homepage-portfolio {
-  background-color: #fbfaf5;
-  padding-bottom: 7.5rem; }
+  background-color: #383534;
+  padding: 5.625rem 0; }
   section#homepage-portfolio h1, section#homepage-portfolio h2, section#homepage-portfolio h3, section#homepage-portfolio h4, section#homepage-portfolio h5, section#homepage-portfolio h6, section#homepage-portfolio p {
     color: #383534; }
 
@@ -4706,6 +4708,9 @@ div.item {
       position: absolute;
       top: 50%;
       width: 100%;
+      font-family: "Arquitecta", sans-serif;
+      font-weight: 900;
+      text-transform: uppercase;
       color: #fefefe;
       text-align: center;
       opacity: 0;

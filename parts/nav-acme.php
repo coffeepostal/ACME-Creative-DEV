@@ -50,8 +50,10 @@
 
 			// loop through the rows of data
 			while ( have_rows('case_studies', 'option') ) : the_row();
+
+				$background_image = get_sub_field('background_image');
 ?>
-			<div id="case-study-01" class="case-study" style="height: <?php echo $case_study_height; ?>%;">
+			<div id="case-study-01" class="case-study" style="height: <?php echo $case_study_height; ?>%; background-image: url('<?php echo $background_image['url']; ?>');">
 				<h2><?php the_sub_field('title'); ?></h2>
 				<?php the_sub_field('content'); ?>
 			</div>

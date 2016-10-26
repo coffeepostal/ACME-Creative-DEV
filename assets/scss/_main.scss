@@ -271,7 +271,7 @@ nav#acme {
 			overflow: hidden;
 			width: auto;
 			div.case-study {
-				//height: 50%;
+				background-size: cover;
 			}
 		}
 	}
@@ -354,8 +354,8 @@ section#call-to-action {
 	}
 }
 section#homepage-portfolio {
-	background-color: map-get($foundation-palette, acme-off-white);
-	padding-bottom: rem-calc(120);
+	background-color: $secondary-color;
+	padding: rem-calc(90 0);
 	h1, h2, h3, h4, h5, h6, p {
 		color: $secondary-color;
 	}
@@ -384,6 +384,9 @@ div.item {
 			position: absolute;
 			top: 50%;
 			width: 100%;
+			font-family: $header-font-family;
+			font-weight: 900;
+			text-transform: uppercase;
 			color: $white;
 			text-align: center;
 			opacity: 0;
