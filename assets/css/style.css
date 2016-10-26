@@ -4622,7 +4622,28 @@ nav#acme {
       overflow: hidden;
       width: auto; }
       nav#acme div#container div#case-studies div.case-study {
-        background-size: cover; }
+        position: relative;
+        background-size: cover;
+        background-position: center; }
+        nav#acme div#container div#case-studies div.case-study div.container {
+          position: absolute;
+          height: 100%;
+          width: 100%; }
+          nav#acme div#container div#case-studies div.case-study div.container:hover {
+            background-color: rgba(56, 53, 52, 0.5);
+            -webkit-transition: background-color .25s ease-in-out;
+            transition: background-color .25s ease-in-out; }
+            nav#acme div#container div#case-studies div.case-study div.container:hover div.content {
+              opacity: 1; }
+          nav#acme div#container div#case-studies div.case-study div.container div.content {
+            position: absolute;
+            top: 50%;
+            width: 100%;
+            padding: 0 2rem;
+            text-align: center;
+            opacity: 0;
+            -webkit-transition: opacity .25s ease-in-out;
+            transition: opacity .25s ease-in-out; }
 
 .top-bar .title-area {
   z-index: 1; }

@@ -28,40 +28,59 @@
 		</div>
 
 <?php
+	// Set background image
 	$background_image = get_field('background_image', 'option');
 
-	if( !empty($background_image) ):
-		$background_image_url = $background_image['url'];
-		$background_image_size = 'large';
+	// Check to see if both the case studies IS active AND there are case studies to display
+	if ( get_field('case_studies_active', 'option') && have_rows('case_studies', 'option') ):
+		$case_study_count = count(get_field('case_studies', 'option'));
+		$case_study_height = 100 / $case_study_count;
 ?>
-		<div id="case-studies" style="background-image: url('<?php echo $background_image['sizes'][ $background_image_size ]; ?>'); background-position: <?php the_field('background_alignment', 'option'); ?>;">
-<?php else: ?>
+
 		<div id="case-studies">
-<?php endif; ?>
 
 <?php
-	if(get_field('case_studies_active', 'option')):
+		// Loop through the case studies
+		while ( have_rows('case_studies', 'option') ) : the_row();
 
-		// check if the repeater field has rows of data
-		if( have_rows('case_studies', 'option') ):
-
-			$case_study_count = count(get_field('case_studies', 'option'));
-			$case_study_height = 100 / $case_study_count;
-
-			// loop through the rows of data
-			while ( have_rows('case_studies', 'option') ) : the_row();
-
-				$background_image = get_sub_field('background_image');
+			$background_image = get_sub_field('background_image');
+			$page_link = get_sub_field('link');
 ?>
+
 			<div id="case-study-01" class="case-study" style="height: <?php echo $case_study_height; ?>%; background-image: url('<?php echo $background_image['url']; ?>');">
-				<h2><?php the_sub_field('title'); ?></h2>
-				<?php the_sub_field('content'); ?>
+				<a href="<?php echo $page_link; ?>">
+					<div class="container">
+						<div class="content">
+							<h2><?php the_sub_field('title'); ?></h2>
+							<?php the_sub_field('content'); ?>
+						</div>
+					</div>
+				</a>
 			</div>
+
 <?php
-			endwhile;
-		endif;
+		endwhile;
+
+	//	If there IS a background image, BUT there are either NO case studies or they're turned OFF
+	elseif ( !empty($background_image) ):
+
+		$background_image_url = $background_image['sizes']['large'];
+		$background_alignment = get_field('background_alignment', 'option')
+?>
+
+		<div id="case-studies" style="background-image: url('<?php echo $background_image_url; ?>'); background-position: <?php echo $background_alignment; ?>;">
+
+<?php
+	//	If there's NO background image AND there are either NO case studies or they're turned OFF
+	else:
+?>
+
+		<div id="case-studies">
+
+<?php
 	endif;
 ?>
+
 		</div>
 	</div>
 </nav>

@@ -271,7 +271,30 @@ nav#acme {
 			overflow: hidden;
 			width: auto;
 			div.case-study {
+				position: relative;
 				background-size: cover;
+				background-position: center;
+				div.container {
+					position: absolute;
+					height: 100%;
+					width: 100%;
+					&:hover {
+						background-color: rgba($secondary-color, 0.5);
+						transition: background-color .25s ease-in-out;
+						div.content {
+							opacity: 1;
+						}
+					}
+					div.content {
+						position: absolute;
+						top: 50%;
+						width: 100%;
+						padding: rem-calc(0 32);
+						text-align: center;
+						opacity: 0;
+						transition: opacity .25s ease-in-out;
+					}
+				}
 			}
 		}
 	}
