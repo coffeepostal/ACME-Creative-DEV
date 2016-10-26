@@ -552,13 +552,16 @@ div#portfolio {
 	padding: rem-calc(42 0);
 }
 div#portfolio-full_photo {
-	padding: rem-calc(32 0);
+	padding: rem-calc(16 0);
+}
+div#portfolio-two_photos {
+	padding: rem-calc(16 0);
 }
 div#portfolio-full_text {
 	padding: rem-calc(32 0);
 }
 div#portfolio-image_text {
-	padding: rem-calc(32 0);
+	padding: rem-calc(16 0);
 }
 div#portfolio-quote {
 	padding: rem-calc(32 0);
@@ -579,9 +582,6 @@ div#portfolio-quote {
 			line-height: 1;
 		}
 	}
-}
-div#portfolio-two_photos {
-	padding: rem-calc(32 0);
 }
 div.portfolio-default {
 

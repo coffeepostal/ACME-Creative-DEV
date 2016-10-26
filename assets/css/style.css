@@ -4850,13 +4850,16 @@ div#portfolio {
   padding: 2.625rem 0; }
 
 div#portfolio-full_photo {
-  padding: 2rem 0; }
+  padding: 1rem 0; }
+
+div#portfolio-two_photos {
+  padding: 1rem 0; }
 
 div#portfolio-full_text {
   padding: 2rem 0; }
 
 div#portfolio-image_text {
-  padding: 2rem 0; }
+  padding: 1rem 0; }
 
 div#portfolio-quote {
   padding: 2rem 0; }
@@ -4874,9 +4877,6 @@ div#portfolio-quote {
       margin-bottom: 0;
       font-size: 1.5rem;
       line-height: 1; }
-
-div#portfolio-two_photos {
-  padding: 2rem 0; }
 
 div.portfolio-light-gray {
   background-color: #575351; }
