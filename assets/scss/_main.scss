@@ -556,6 +556,14 @@ div#portfolio-full_photo {
 }
 div#portfolio-two_photos {
 	padding: rem-calc(16 0);
+
+	@media screen and (max-width: 39.9375em) {
+		div.row {
+			div.medium-6:first-child {
+				padding-bottom: rem-calc(16);
+			}
+		}
+	}
 }
 div#portfolio-full_text {
 	padding: rem-calc(32 0);
