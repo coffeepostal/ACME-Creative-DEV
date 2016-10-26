@@ -4717,14 +4717,17 @@ div.item {
     position: absolute;
     height: 100%;
     width: 100%; }
+    @media screen and (max-width: 39.9375em) {
+      div.item div.content {
+        background-color: rgba(56, 53, 52, 0.5); } }
+    div.item div.content.pad {
+      padding: 2.25rem; }
     div.item div.content:hover {
       background-color: rgba(56, 53, 52, 0.5);
       -webkit-transition: background-color .25s ease-in-out;
       transition: background-color .25s ease-in-out; }
       div.item div.content:hover span.text {
         opacity: 1; }
-    div.item div.content.pad {
-      padding: 2.25rem; }
     div.item div.content span.text {
       position: absolute;
       top: 50%;
@@ -4737,17 +4740,17 @@ div.item {
       opacity: 0;
       -webkit-transition: opacity .25s ease-in-out;
       transition: opacity .25s ease-in-out; }
+      @media screen and (max-width: 39.9375em) {
+        div.item div.content span.text {
+          font-size: 1.125rem;
+          line-height: 1.125rem;
+          margin-top: -0.5625rem;
+          opacity: 1; } }
       @media screen and (min-width: 40em) {
         div.item div.content span.text {
           font-size: 1.875rem;
           line-height: 1.875rem;
           margin-top: -0.9375rem; } }
-      @media screen and (max-width: 39.9375em) {
-        div.item div.content span.text {
-          font-size: 1.375rem;
-          line-height: 1.375rem;
-          margin-top: -0.6875rem;
-          opacity: 1; } }
   div.item.full {
     width: 95%;
     height: 0;

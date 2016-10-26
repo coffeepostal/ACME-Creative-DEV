@@ -393,15 +393,20 @@ div.item {
 		position: absolute;
 		height: 100%;
 		width: 100%;
+
+		@media screen and (max-width: 39.9375em) {
+			background-color: rgba($secondary-color, 0.5);
+		}
+
+		&.pad {
+			padding: rem-calc(36);
+		}
 		&:hover {
 			background-color: rgba($secondary-color, 0.5);
 			transition: background-color .25s ease-in-out;
 			span.text {
 				opacity: 1;
 			}
-		}
-		&.pad {
-			padding: rem-calc(36);
 		}
 		span.text {
 			position: absolute;
@@ -415,16 +420,17 @@ div.item {
 			opacity: 0;
 			transition: opacity .25s ease-in-out;
 
+			@media screen and (max-width: 39.9375em) {
+				font-size: rem-calc(18);
+				line-height: rem-calc(18);
+				margin-top: rem-calc(-9);
+				opacity: 1;
+			}
+
 			@media screen and (min-width: 40em) {
 				font-size: rem-calc(30);
 				line-height: rem-calc(30);
 				margin-top: rem-calc(-15);
-			}
-			@media screen and (max-width: 39.9375em) {
-				font-size: rem-calc(22);
-				line-height: rem-calc(22);
-				margin-top: rem-calc(-11);
-				opacity: 1;
 			}
 		}
 	}
