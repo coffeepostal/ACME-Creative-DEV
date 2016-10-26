@@ -44,7 +44,7 @@ Template Name: Homepage
 ?>
 
 				<div class="item <?php echo $grid_layout; ?>" style="background-image: url('<?php echo $image['url']; ?>');">
-					<a href="">
+					<a href="<?php echo $page_link; ?>">
 						<div class="content">
 							<span class="text"><?php echo $title; ?></span>
 						</div>
@@ -76,7 +76,7 @@ Template Name: Homepage
 ?>
 
 				<div class="item <?php echo $grid_layout; ?>" style="background-image: url('<?php echo $image['url']; ?>');">
-					<a href="">
+					<a href="<?php echo $page_link; ?>">
 						<div class="content">
 							<span class="text"><?php echo $title; ?></span>
 						</div>
