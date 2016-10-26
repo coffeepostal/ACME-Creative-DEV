@@ -42,7 +42,9 @@ Template Name: Contact
 					<div class="content pad">
 						<h2>Let's get started!</h2>
 						<p class="lead">Write us a quick note, and we'll schedule some time to sit down and talk about your project.</p>
-						<a id="work-with-us" class="button">Work With Us</a>
+						<div class="work-with-us">
+							<a id="work-with-us" class="button">Work With Us</a>
+						</div>
 					</div>
 				</div>
 			</div>
