@@ -4746,7 +4746,12 @@ div.item {
           line-height: 1.125rem;
           margin-top: -0.5625rem;
           opacity: 1; } }
-      @media screen and (min-width: 40em) {
+      @media screen and (min-width: 40em) and (max-width: 63.9375em) {
+        div.item div.content span.text {
+          font-size: 1.5rem;
+          line-height: 1.5rem;
+          margin-top: -0.75rem; } }
+      @media screen and (min-width: 64em) {
         div.item div.content span.text {
           font-size: 1.875rem;
           line-height: 1.875rem;
