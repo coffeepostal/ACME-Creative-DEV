@@ -17,14 +17,6 @@
 	<div id="container">
 		<div id="navigation">
 			<?php joints_acme_nav(); ?>
-			<!-- <ul id="navigationContainer">
-				<li>Work With Us</li>
-				<li>Who We Are</li>
-				<li>What We Do</li>
-				<li>Our Portfolio</li>
-				<li>Contact Us</li>
-				<li>News</li>
-			</ul> -->
 		</div>
 
 <?php
