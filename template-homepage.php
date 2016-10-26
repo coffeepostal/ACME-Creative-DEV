@@ -13,7 +13,7 @@ Template Name: Homepage
 			<div class="medium-10 medium-centered columns">
 				<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
-					<?php get_template_part( 'parts/loop', 'homepage' ); ?>
+					<?php // get_template_part( 'parts/loop', 'homepage' ); ?>
 
 				<?php endwhile; endif; ?>
 			</div>
