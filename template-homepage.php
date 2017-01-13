@@ -9,11 +9,11 @@ Template Name: Homepage
 <?php get_template_part( 'parts/block', 'feature' ); ?>
 
 <?php
-	//	Portfolio Section
+	//	Portfolio Grid
 	if ( have_rows('portfolio_left' ) || have_rows('portfolio_right' ) ):
 ?>
 
-	<section id="homepage-portfolio-grid">
+	<section id="homepage-portfolio">
 		<div class="row collapse">
 
 <?php
@@ -26,11 +26,10 @@ Template Name: Homepage
 <?php
 		 	// loop through the rows of data
 		    while ( have_rows('portfolio_left') ) : the_row();
-				$title = get_sub_field('title');
+				$title = get_sub_field('new_link');
 				$image = get_sub_field('image');
 				$grid_layout = get_sub_field('grid_layout');
 				$page_link = get_sub_field('page_link');
-				echo $title . ', ' . $image . ' , ' . $grid_layout . ', ' . $page_link;
 ?>
 
 				<div class="item <?php echo $grid_layout; ?>" style="background-image: url('<?php echo $image['url']; ?>');">
@@ -89,7 +88,7 @@ Template Name: Homepage
 <?php
 	endif;
 
-	//Call-to-Action Section
+	//	Call-to-Action Section
 	if(get_field('call_to_action_onoff')):
 ?>
 

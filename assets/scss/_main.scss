@@ -380,7 +380,7 @@ section#call-to-action {
 		margin-bottom: 0;
 	}
 }
-section#homepage-portfolio-grid {
+section#homepage-portfolio {
 	background-color: $secondary-color;
 	padding: rem-calc(90 0);
 	h1, h2, h3, h4, h5, h6, p {
@@ -551,14 +551,42 @@ section#testimonials {
 	}
 }
 
-//	portfolio-grid
-div#portfolio-grid {
+//	PORTFOLIO
+div#portfolio {
 	padding: rem-calc(42 0);
+	div.portfolio-section {
+		div.portfolio-item {
+			background: $primary-color;
+			margin-bottom: rem-calc(45);
+			padding: rem-calc(200 100);
+			div#portfolio-name {
+				text-transform: uppercase;
+				font-size: rem-calc(36);
+			}
+			p#portfolio-type {
+
+			}
+			a.button.portfolio-link {
+				text-transform: uppercase;
+			}
+		}
+	}
 }
-div#portfolio-grid-full_photo {
+
+
+
+
+
+
+
+
+
+
+
+div#portfolio-full_photo {
 	padding: rem-calc(16 0);
 }
-div#portfolio-grid-two_photos {
+div#portfolio-two_photos {
 	padding: rem-calc(16 0);
 
 	@media screen and (max-width: 39.9375em) {
@@ -569,13 +597,13 @@ div#portfolio-grid-two_photos {
 		}
 	}
 }
-div#portfolio-grid-full_text {
+div#portfolio-full_text {
 	padding: rem-calc(32 0);
 }
-div#portfolio-grid-image_text {
+div#portfolio-image_text {
 	padding: rem-calc(16 0);
 }
-div#portfolio-grid-quote {
+div#portfolio-quote {
 	padding: rem-calc(32 0);
 	div.quote {
 		border-top: rem-calc(1) map-get($foundation-palette, acme-off-white) solid;
@@ -585,23 +613,24 @@ div#portfolio-grid-quote {
 			text-align: center;
 			margin-bottom: 0;
 			font-size: rem-calc(24);
-			line-height: 1;
+			line-height: 1.25;
 		}
 		p.attribution {
 			text-align: right;
 			margin-bottom: 0;
-			font-size: rem-calc(24);
+			font-size: rem-calc(16);
+			text-transform: uppercase;
 			line-height: 1;
 		}
 	}
 }
-div.portfolio-grid-default {
+div.portfolio-default {
 
 }
-div.portfolio-grid-light-gray {
+div.portfolio-light-gray {
 	background-color: scale-color($secondary-color, $lightness: 15%);
 }
-div.portfolio-grid-red {
+div.portfolio-red {
 	background-color: $primary-color;
 }
 

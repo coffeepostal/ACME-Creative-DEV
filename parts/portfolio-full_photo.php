@@ -1,13 +1,13 @@
 <?php
 	if ( get_sub_field('background_color') ):
-		$background_color = 'class="portfolio-grid-' . get_sub_field('background_color') . '"';
+		$background_color = 'class="portfolio-' . get_sub_field('background_color') . '"';
 	endif;
     $toggle = get_sub_field('single_photo_or_gallery');
     $single_photo = get_sub_field('single_photo');
     $gallery = get_field('gallery');
 ?>
 
-<div id="portfolio-grid-full_photo" <?php echo $background_color; ?>>
+<div id="portfolio-full_photo" <?php echo $background_color; ?>>
     <div class="row">
         <div class="medium-12 columns">
 

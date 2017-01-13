@@ -4631,10 +4631,10 @@ section#call-to-action {
     font-size: 1.5rem;
     margin-bottom: 0; }
 
-section#homepage-portfolio-grid {
+section#homepage-portfolio {
   background-color: #383534;
   padding: 5.625rem 0; }
-  section#homepage-portfolio-grid h1, section#homepage-portfolio-grid h2, section#homepage-portfolio-grid h3, section#homepage-portfolio-grid h4, section#homepage-portfolio-grid h5, section#homepage-portfolio-grid h6, section#homepage-portfolio-grid p {
+  section#homepage-portfolio h1, section#homepage-portfolio h2, section#homepage-portfolio h3, section#homepage-portfolio h4, section#homepage-portfolio h5, section#homepage-portfolio h6, section#homepage-portfolio p {
     color: #383534; }
 
 div.item {
@@ -4776,45 +4776,55 @@ section#testimonials {
   section#testimonials div.testimonial {
     padding-bottom: 2.8125rem; }
 
-div#portfolio-grid {
+div#portfolio {
   padding: 2.625rem 0; }
+  div#portfolio div.portfolio-section div.portfolio-item {
+    background: #d01c1f;
+    margin-bottom: 2.8125rem;
+    padding: 12.5rem 6.25rem; }
+    div#portfolio div.portfolio-section div.portfolio-item div#portfolio-name {
+      text-transform: uppercase;
+      font-size: 2.25rem; }
+    div#portfolio div.portfolio-section div.portfolio-item a.button.portfolio-link {
+      text-transform: uppercase; }
 
-div#portfolio-grid-full_photo {
+div#portfolio-full_photo {
   padding: 1rem 0; }
 
-div#portfolio-grid-two_photos {
+div#portfolio-two_photos {
   padding: 1rem 0; }
   @media screen and (max-width: 39.9375em) {
-    div#portfolio-grid-two_photos div.row div.medium-6:first-child {
+    div#portfolio-two_photos div.row div.medium-6:first-child {
       padding-bottom: 2rem; } }
 
-div#portfolio-grid-full_text {
+div#portfolio-full_text {
   padding: 2rem 0; }
 
-div#portfolio-grid-image_text {
+div#portfolio-image_text {
   padding: 1rem 0; }
 
-div#portfolio-grid-quote {
+div#portfolio-quote {
   padding: 2rem 0; }
-  div#portfolio-grid-quote div.quote {
+  div#portfolio-quote div.quote {
     border-top: 0.0625rem #fbfaf5 solid;
     border-bottom: 0.0625rem #fbfaf5 solid;
     padding: 7.5rem 0; }
-    div#portfolio-grid-quote div.quote p.quote {
+    div#portfolio-quote div.quote p.quote {
       text-align: center;
       margin-bottom: 0;
       font-size: 1.5rem;
-      line-height: 1; }
-    div#portfolio-grid-quote div.quote p.attribution {
+      line-height: 1.25; }
+    div#portfolio-quote div.quote p.attribution {
       text-align: right;
       margin-bottom: 0;
-      font-size: 1.5rem;
+      font-size: 1rem;
+      text-transform: uppercase;
       line-height: 1; }
 
-div.portfolio-grid-light-gray {
+div.portfolio-light-gray {
   background-color: #575351; }
 
-div.portfolio-grid-red {
+div.portfolio-red {
   background-color: #d01c1f; }
 
 section#contact-us {

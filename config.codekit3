@@ -17,19 +17,19 @@
 		},
 	"\/404.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/404.php",
 		"oF": 0
 		},
 	"\/archive-custom_type.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/archive-custom_type.php",
 		"oF": 0
 		},
 	"\/archive.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/archive.php",
 		"oF": 0
 		},
@@ -38,7 +38,7 @@
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "\/assets\/css\/login-min.css",
 		"oF": 0,
 		"oS": 0
@@ -48,7 +48,7 @@
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/assets\/css\/login.min-min.css",
 		"oF": 0,
 		"oS": 0
@@ -64,7 +64,7 @@
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "\/assets\/css\/style-min.css",
 		"oF": 0,
 		"oS": 0
@@ -74,7 +74,7 @@
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/assets\/css\/style.min-min.css",
 		"oF": 0,
 		"oS": 0
@@ -155,91 +155,91 @@
 		},
 	"\/assets\/functions\/acf.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/assets\/functions\/acf.php",
 		"oF": 0
 		},
 	"\/assets\/functions\/admin.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/assets\/functions\/admin.php",
 		"oF": 0
 		},
 	"\/assets\/functions\/cleanup.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/assets\/functions\/cleanup.php",
 		"oF": 0
 		},
 	"\/assets\/functions\/comments.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/assets\/functions\/comments.php",
 		"oF": 0
 		},
 	"\/assets\/functions\/custom-post-type.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/assets\/functions\/custom-post-type.php",
 		"oF": 0
 		},
 	"\/assets\/functions\/disable-emoji.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/assets\/functions\/disable-emoji.php",
 		"oF": 0
 		},
 	"\/assets\/functions\/editor-styles.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/assets\/functions\/editor-styles.php",
 		"oF": 0
 		},
 	"\/assets\/functions\/enqueue-scripts.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/assets\/functions\/enqueue-scripts.php",
 		"oF": 0
 		},
 	"\/assets\/functions\/login.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/assets\/functions\/login.php",
 		"oF": 0
 		},
 	"\/assets\/functions\/media.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/assets\/functions\/media.php",
 		"oF": 0
 		},
 	"\/assets\/functions\/menu.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/assets\/functions\/menu.php",
 		"oF": 0
 		},
 	"\/assets\/functions\/page-navi.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/assets\/functions\/page-navi.php",
 		"oF": 0
 		},
 	"\/assets\/functions\/related-posts.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/assets\/functions\/related-posts.php",
 		"oF": 0
 		},
 	"\/assets\/functions\/sidebar.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/assets\/functions\/sidebar.php",
 		"oF": 0
 		},
 	"\/assets\/functions\/theme-support.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/assets\/functions\/theme-support.php",
 		"oF": 0
 		},
@@ -665,7 +665,7 @@
 		},
 	"\/assets\/images\/sm-instagram.png": {
 		"ft": 32768,
-		"iS": 0,
+		"iS": 1424,
 		"oA": 0,
 		"oAP": "\/assets\/images\/sm-instagram.png",
 		"oF": 0,
@@ -673,7 +673,7 @@
 		},
 	"\/assets\/images\/sm-instagram@2x.png": {
 		"ft": 32768,
-		"iS": 0,
+		"iS": 1471,
 		"oA": 0,
 		"oAP": "\/assets\/images\/sm-instagram@2x.png",
 		"oF": 0,
@@ -681,7 +681,7 @@
 		},
 	"\/assets\/images\/sm-linkedin.png": {
 		"ft": 32768,
-		"iS": 0,
+		"iS": 1305,
 		"oA": 0,
 		"oAP": "\/assets\/images\/sm-linkedin.png",
 		"oF": 0,
@@ -689,7 +689,7 @@
 		},
 	"\/assets\/images\/sm-linkedin@2x.png": {
 		"ft": 32768,
-		"iS": 0,
+		"iS": 1245,
 		"oA": 0,
 		"oAP": "\/assets\/images\/sm-linkedin@2x.png",
 		"oF": 0,
@@ -697,7 +697,7 @@
 		},
 	"\/assets\/images\/sm-mail.png": {
 		"ft": 32768,
-		"iS": 0,
+		"iS": 1320,
 		"oA": 0,
 		"oAP": "\/assets\/images\/sm-mail.png",
 		"oF": 0,
@@ -705,7 +705,7 @@
 		},
 	"\/assets\/images\/sm-mail@2x.png": {
 		"ft": 32768,
-		"iS": 0,
+		"iS": 1359,
 		"oA": 0,
 		"oAP": "\/assets\/images\/sm-mail@2x.png",
 		"oF": 0,
@@ -713,7 +713,7 @@
 		},
 	"\/assets\/images\/sm-twitter.png": {
 		"ft": 32768,
-		"iS": 0,
+		"iS": 1371,
 		"oA": 0,
 		"oAP": "\/assets\/images\/sm-twitter.png",
 		"oF": 0,
@@ -721,7 +721,7 @@
 		},
 	"\/assets\/images\/sm-twitter@2x.png": {
 		"ft": 32768,
-		"iS": 0,
+		"iS": 1351,
 		"oA": 0,
 		"oAP": "\/assets\/images\/sm-twitter@2x.png",
 		"oF": 0,
@@ -748,15 +748,15 @@
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/foundation.min.js",
-		"oF": 2,
+		"oAP": "\/assets\/js\/min\/foundation-min.js",
+		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
 	"\/assets\/js\/foundation.min.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/assets\/js\/min\/foundation.min-min.js",
 		"oF": 0,
 		"sC": 1,
@@ -771,7 +771,7 @@
 	"\/assets\/js\/min\/app-min.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/assets\/js\/min\/min\/app-min-min.js",
 		"oF": 0,
 		"sC": 1,
@@ -781,15 +781,15 @@
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/scripts.min.js",
-		"oF": 2,
+		"oAP": "\/assets\/js\/min\/scripts-min.js",
+		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
 	"\/assets\/js\/scripts.min.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/assets\/js\/min\/scripts.min-min.js",
 		"oF": 0,
 		"sC": 1,
@@ -822,7 +822,7 @@
 	"\/assets\/js\/scripts\/min\/jquery.countTo-min.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/assets\/js\/scripts\/min\/min\/jquery.countTo-min-min.js",
 		"oF": 0,
 		"sC": 1,
@@ -831,7 +831,7 @@
 	"\/assets\/js\/scripts\/min\/photoswipe-settings-min.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/assets\/js\/scripts\/min\/min\/photoswipe-settings-min-min.js",
 		"oF": 0,
 		"sC": 1,
@@ -2949,7 +2949,7 @@
 		},
 	"\/assets\/translation\/translation.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/assets\/translation\/translation.php",
 		"oF": 0
 		},
@@ -6351,40 +6351,40 @@
 		"oAP": "\/parts\/nav-topbar.php",
 		"oF": 0
 		},
-	"\/parts\/portfolio-grid-full_photo.php": {
+	"\/parts\/portfolio-full_photo.php": {
 		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/parts\/portfolio-grid-full_photo.php",
+		"oA": 2,
+		"oAP": "\/parts\/portfolio-full_photo.php",
 		"oF": 0
 		},
-	"\/parts\/portfolio-grid-full_text.php": {
+	"\/parts\/portfolio-full_text.php": {
 		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/parts\/portfolio-grid-full_text.php",
+		"oA": 2,
+		"oAP": "\/parts\/portfolio-full_text.php",
 		"oF": 0
 		},
-	"\/parts\/portfolio-grid-image_text.php": {
+	"\/parts\/portfolio-image_text.php": {
 		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/parts\/portfolio-grid-image_text.php",
+		"oA": 2,
+		"oAP": "\/parts\/portfolio-image_text.php",
 		"oF": 0
 		},
-	"\/parts\/portfolio-grid-missing.php": {
+	"\/parts\/portfolio-missing.php": {
 		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/parts\/portfolio-grid-missing.php",
+		"oA": 2,
+		"oAP": "\/parts\/portfolio-missing.php",
 		"oF": 0
 		},
-	"\/parts\/portfolio-grid-quote.php": {
+	"\/parts\/portfolio-quote.php": {
 		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/parts\/portfolio-grid-quote.php",
+		"oA": 2,
+		"oAP": "\/parts\/portfolio-quote.php",
 		"oF": 0
 		},
-	"\/parts\/portfolio-grid-two_photos.php": {
+	"\/parts\/portfolio-two_photos.php": {
 		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/parts\/portfolio-grid-two_photos.php",
+		"oA": 2,
+		"oAP": "\/parts\/portfolio-two_photos.php",
 		"oF": 0
 		},
 	"\/README.md": {
