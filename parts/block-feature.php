@@ -53,7 +53,7 @@
 <?php
 			while ( have_rows('jump_links') ) : the_row();
 ?>
-			<div class="<?php echo $jump_link_classes;">
+			<div class="<?php echo $jump_link_classes; ?>">
 				<a href="#<?php the_sub_field('section_id'); ?>">
 					<h3><?php the_sub_field('link_text'); ?></h3>
 					<img src="<?php echo get_template_directory_uri(); ?>/assets/images/ico-arrow_down.png" alt="Take me to: <?php the_sub_field('section_id'); ?>">
