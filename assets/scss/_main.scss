@@ -369,11 +369,11 @@ section#feature {
 	}
 }
 section#call-to-action {
-	background-color: $secondary-color;
+	background-color: map-get($foundation-palette, acme-cream);
 	padding-top: rem-calc(100);
 	padding-bottom: rem-calc(100);
 	h1, h2, h3, h4, h5, h6, p {
-		color: map-get($foundation-palette, acme-off-white);
+		color: $secondary-color;
 	}
 	p {
 		font-size: rem-calc(24);

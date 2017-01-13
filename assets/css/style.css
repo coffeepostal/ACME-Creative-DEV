@@ -4622,11 +4622,11 @@ section#feature {
     padding-top: 5rem; }
 
 section#call-to-action {
-  background-color: #383534;
+  background-color: #dddacd;
   padding-top: 6.25rem;
   padding-bottom: 6.25rem; }
   section#call-to-action h1, section#call-to-action h2, section#call-to-action h3, section#call-to-action h4, section#call-to-action h5, section#call-to-action h6, section#call-to-action p {
-    color: #fbfaf5; }
+    color: #383534; }
   section#call-to-action p {
     font-size: 1.5rem; }
 
