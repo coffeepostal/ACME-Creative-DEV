@@ -369,11 +369,14 @@ section#feature {
 	}
 }
 section#call-to-action {
-	background-color: map-get($foundation-palette, acme-off-white);
-	padding-top: rem-calc(240);
-	padding-bottom: rem-calc(240);
+	background-color: $secondary-color;
+	padding-top: rem-calc(100);
+	padding-bottom: rem-calc(100);
 	h1, h2, h3, h4, h5, h6, p {
-		color: $secondary-color;
+		color: map-get($foundation-palette, acme-off-white);
+	}
+	p {
+		font-size: rem-calc(24);
 	}
 }
 section#homepage-portfolio {
