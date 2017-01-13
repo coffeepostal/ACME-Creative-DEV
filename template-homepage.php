@@ -9,24 +9,7 @@ Template Name: Homepage
 <?php get_template_part( 'parts/block', 'feature' ); ?>
 
 <?php
-	//	Check to see if Call-to-Action section is turned on
-	if(get_field('call_to_action_onoff')):
-?>
-
-	<section id="call-to-action">
-		<div class="row">
-			<div class="medium-10 medium-centered columns">
-
-				<?php the_field('call_to_action_content'); ?>
-
-			</div>
-		</div>
-	</section>
-
-<?php
-	//	End Call-to-Action if section
-	endif;
-
+	//	Portfolio Section
 	if ( have_rows('portfolio_left' ) || have_rows('portfolio_right' ) ):
 ?>
 
@@ -103,6 +86,24 @@ Template Name: Homepage
 	</section>
 
 <?php
+	endif;
+
+	//Call-to-Action Section
+	if(get_field('call_to_action_onoff')):
+?>
+
+	<section id="call-to-action">
+		<div class="row">
+			<div class="medium-10 medium-centered columns">
+
+				<?php the_field('call_to_action_content'); ?>
+
+			</div>
+		</div>
+	</section>
+
+<?php
+	//	End Call-to-Action if section
 	endif;
 ?>
 
