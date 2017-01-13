@@ -4779,14 +4779,48 @@ section#testimonials {
 div#portfolio {
   padding: 2.625rem 0; }
   div#portfolio div.portfolio-section div.portfolio-item {
-    background: #d01c1f;
-    margin-bottom: 2.8125rem;
-    padding: 12.5rem 6.25rem; }
-    div#portfolio div.portfolio-section div.portfolio-item div#portfolio-name {
-      text-transform: uppercase;
-      font-size: 2.25rem; }
-    div#portfolio div.portfolio-section div.portfolio-item a.button.portfolio-link {
-      text-transform: uppercase; }
+    background-image: url("/wp-content/uploads/2016/10/acme-feature-square-ryonet2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat; }
+    div#portfolio div.portfolio-section div.portfolio-item div.portfolio-container {
+      background-color: rgba(56, 53, 52, 0.6);
+      margin-bottom: 2.8125rem;
+      padding: 12.5rem 6.25rem;
+      -webkit-transition: background-color 0.5s;
+      transition: background-color 0.5s; }
+      div#portfolio div.portfolio-section div.portfolio-item div.portfolio-container:hover {
+        background-color: rgba(208, 28, 31, 0.6); }
+        div#portfolio div.portfolio-section div.portfolio-item div.portfolio-container:hover div.portolio-text {
+          -webkit-transform: translate(0, 0);
+                  transform: translate(0, 0); }
+        div#portfolio div.portfolio-section div.portfolio-item div.portfolio-container:hover a.button.portfolio-link {
+          opacity: 1; }
+      div#portfolio div.portfolio-section div.portfolio-item div.portfolio-container div.portolio-text {
+        -webkit-transform: translate(0, 1.875rem);
+                transform: translate(0, 1.875rem);
+        -webkit-transition: -webkit-transform 0.5s;
+        transition: -webkit-transform 0.5s;
+        transition: transform 0.5s;
+        transition: transform 0.5s, -webkit-transform 0.5s; }
+        div#portfolio div.portfolio-section div.portfolio-item div.portfolio-container div.portolio-text div#portfolio-name {
+          font-family: "Arquitecta", sans-serif;
+          font-weight: 900;
+          text-transform: uppercase;
+          font-size: 3rem;
+          line-height: 0.9; }
+          @media screen and (max-width: 39.9375em) {
+            div#portfolio div.portfolio-section div.portfolio-item div.portfolio-container div.portolio-text div#portfolio-name {
+              font-size: 2rem; } }
+        div#portfolio div.portfolio-section div.portfolio-item div.portfolio-container div.portolio-text p#portfolio-type {
+          font-size: 2.25rem; }
+          @media screen and (max-width: 39.9375em) {
+            div#portfolio div.portfolio-section div.portfolio-item div.portfolio-container div.portolio-text p#portfolio-type {
+              font-size: 1.5rem; } }
+      div#portfolio div.portfolio-section div.portfolio-item div.portfolio-container a.button.portfolio-link {
+        text-transform: uppercase;
+        opacity: 0;
+        -webkit-transition: opacity 0.5s;
+        transition: opacity 0.5s; }
 
 div#portfolio-full_photo {
   padding: 1rem 0; }

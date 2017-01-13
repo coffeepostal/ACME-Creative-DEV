@@ -552,22 +552,63 @@ section#testimonials {
 }
 
 //	PORTFOLIO
-div#portfolio {
-	padding: rem-calc(42 0);
-	div.portfolio-section {
-		div.portfolio-item {
-			background: $primary-color;
-			margin-bottom: rem-calc(45);
-			padding: rem-calc(200 100);
-			div#portfolio-name {
-				text-transform: uppercase;
-				font-size: rem-calc(36);
-			}
-			p#portfolio-type {
+$portfolio-tranision-speed: 0.5s;
 
-			}
-			a.button.portfolio-link {
-				text-transform: uppercase;
+div#portfolio {
+
+	padding: rem-calc(42 0);
+
+	div.portfolio-section {
+
+		div.portfolio-item {
+			background-image: url('/wp-content/uploads/2016/10/acme-feature-square-ryonet2.jpg');
+			background-size: cover;
+			background-repeat: no-repeat;
+
+			div.portfolio-container {
+				background-color: rgba($secondary-color, 0.6);
+				margin-bottom: rem-calc(45);
+				padding: rem-calc(200 100);
+				transition: background-color $portfolio-tranision-speed;
+
+				&:hover {
+					background-color: rgba($primary-color, 0.6);
+					div.portolio-text {
+						transform: translate(0, 0);
+					}
+					a.button.portfolio-link {
+						opacity: 1;
+					}
+				}
+				div.portolio-text {
+					transform: translate(0, rem-calc(30));
+					transition: transform $portfolio-tranision-speed;
+
+					div#portfolio-name {
+						font-family: $header-font-family;
+						font-weight: $header-font-weight;
+						text-transform: uppercase;
+						font-size: rem-calc(map-get(map-get($header-sizes, medium), h1));
+						line-height: 0.9;
+
+						@media screen and (max-width: 39.9375em) {
+							font-size: rem-calc(map-get(map-get($header-sizes, small), h1));
+						}
+					}
+
+					p#portfolio-type {
+						font-size: rem-calc(36);
+
+						@media screen and (max-width: 39.9375em) {
+							font-size: rem-calc(24);
+						}
+					}
+				}
+				a.button.portfolio-link {
+					text-transform: uppercase;
+					opacity: 0;
+					transition: opacity $portfolio-tranision-speed;
+				}
 			}
 		}
 	}
