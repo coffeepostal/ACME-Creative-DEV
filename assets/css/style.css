@@ -4631,10 +4631,10 @@ section#call-to-action {
     font-size: 1.5rem;
     margin-bottom: 0; }
 
-section#homepage-portfolio {
+section#homepage-portfolio-grid {
   background-color: #383534;
   padding: 5.625rem 0; }
-  section#homepage-portfolio h1, section#homepage-portfolio h2, section#homepage-portfolio h3, section#homepage-portfolio h4, section#homepage-portfolio h5, section#homepage-portfolio h6, section#homepage-portfolio p {
+  section#homepage-portfolio-grid h1, section#homepage-portfolio-grid h2, section#homepage-portfolio-grid h3, section#homepage-portfolio-grid h4, section#homepage-portfolio-grid h5, section#homepage-portfolio-grid h6, section#homepage-portfolio-grid p {
     color: #383534; }
 
 div.item {
@@ -4776,45 +4776,45 @@ section#testimonials {
   section#testimonials div.testimonial {
     padding-bottom: 2.8125rem; }
 
-div#portfolio {
+div#portfolio-grid {
   padding: 2.625rem 0; }
 
-div#portfolio-full_photo {
+div#portfolio-grid-full_photo {
   padding: 1rem 0; }
 
-div#portfolio-two_photos {
+div#portfolio-grid-two_photos {
   padding: 1rem 0; }
   @media screen and (max-width: 39.9375em) {
-    div#portfolio-two_photos div.row div.medium-6:first-child {
+    div#portfolio-grid-two_photos div.row div.medium-6:first-child {
       padding-bottom: 2rem; } }
 
-div#portfolio-full_text {
+div#portfolio-grid-full_text {
   padding: 2rem 0; }
 
-div#portfolio-image_text {
+div#portfolio-grid-image_text {
   padding: 1rem 0; }
 
-div#portfolio-quote {
+div#portfolio-grid-quote {
   padding: 2rem 0; }
-  div#portfolio-quote div.quote {
+  div#portfolio-grid-quote div.quote {
     border-top: 0.0625rem #fbfaf5 solid;
     border-bottom: 0.0625rem #fbfaf5 solid;
     padding: 7.5rem 0; }
-    div#portfolio-quote div.quote p.quote {
+    div#portfolio-grid-quote div.quote p.quote {
       text-align: center;
       margin-bottom: 0;
       font-size: 1.5rem;
       line-height: 1; }
-    div#portfolio-quote div.quote p.attribution {
+    div#portfolio-grid-quote div.quote p.attribution {
       text-align: right;
       margin-bottom: 0;
       font-size: 1.5rem;
       line-height: 1; }
 
-div.portfolio-light-gray {
+div.portfolio-grid-light-gray {
   background-color: #575351; }
 
-div.portfolio-red {
+div.portfolio-grid-red {
   background-color: #d01c1f; }
 
 section#contact-us {

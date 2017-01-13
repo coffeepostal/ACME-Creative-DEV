@@ -1,13 +1,13 @@
 <?php
 	if ( get_sub_field('background_color') ):
-		$background_color = 'class="portfolio-' . get_sub_field('background_color') . '"';
+		$background_color = 'class="portfolio-grid-' . get_sub_field('background_color') . '"';
 	endif;
     $image_1 = get_sub_field('image_1');
     $image_2 = get_sub_field('image_2');
     $orientation = get_sub_field('orientation');
 ?>
 
-<div id="portfolio-two_photos" <?php echo $background_color; ?>>
+<div id="portfolio-grid-two_photos" <?php echo $background_color; ?>>
     <div class="row">
 
 <?php

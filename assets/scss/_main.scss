@@ -380,7 +380,7 @@ section#call-to-action {
 		margin-bottom: 0;
 	}
 }
-section#homepage-portfolio {
+section#homepage-portfolio-grid {
 	background-color: $secondary-color;
 	padding: rem-calc(90 0);
 	h1, h2, h3, h4, h5, h6, p {
@@ -551,14 +551,14 @@ section#testimonials {
 	}
 }
 
-//	PORTFOLIO
-div#portfolio {
+//	portfolio-grid
+div#portfolio-grid {
 	padding: rem-calc(42 0);
 }
-div#portfolio-full_photo {
+div#portfolio-grid-full_photo {
 	padding: rem-calc(16 0);
 }
-div#portfolio-two_photos {
+div#portfolio-grid-two_photos {
 	padding: rem-calc(16 0);
 
 	@media screen and (max-width: 39.9375em) {
@@ -569,13 +569,13 @@ div#portfolio-two_photos {
 		}
 	}
 }
-div#portfolio-full_text {
+div#portfolio-grid-full_text {
 	padding: rem-calc(32 0);
 }
-div#portfolio-image_text {
+div#portfolio-grid-image_text {
 	padding: rem-calc(16 0);
 }
-div#portfolio-quote {
+div#portfolio-grid-quote {
 	padding: rem-calc(32 0);
 	div.quote {
 		border-top: rem-calc(1) map-get($foundation-palette, acme-off-white) solid;
@@ -595,13 +595,13 @@ div#portfolio-quote {
 		}
 	}
 }
-div.portfolio-default {
+div.portfolio-grid-default {
 
 }
-div.portfolio-light-gray {
+div.portfolio-grid-light-gray {
 	background-color: scale-color($secondary-color, $lightness: 15%);
 }
-div.portfolio-red {
+div.portfolio-grid-red {
 	background-color: $primary-color;
 }
 

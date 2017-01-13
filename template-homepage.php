@@ -13,7 +13,7 @@ Template Name: Homepage
 	if ( have_rows('portfolio_left' ) || have_rows('portfolio_right' ) ):
 ?>
 
-	<section id="homepage-portfolio">
+	<section id="homepage-portfolio-grid">
 		<div class="row collapse">
 
 <?php
@@ -30,6 +30,7 @@ Template Name: Homepage
 				$image = get_sub_field('image');
 				$grid_layout = get_sub_field('grid_layout');
 				$page_link = get_sub_field('page_link');
+				echo $title . ', ' . $image . ' , ' . $grid_layout . ', ' . $page_link;
 ?>
 
 				<div class="item <?php echo $grid_layout; ?>" style="background-image: url('<?php echo $image['url']; ?>');">

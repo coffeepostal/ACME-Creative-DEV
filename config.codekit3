@@ -6351,40 +6351,40 @@
 		"oAP": "\/parts\/nav-topbar.php",
 		"oF": 0
 		},
-	"\/parts\/portfolio-full_photo.php": {
+	"\/parts\/portfolio-grid-full_photo.php": {
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/parts\/portfolio-full_photo.php",
+		"oAP": "\/parts\/portfolio-grid-full_photo.php",
 		"oF": 0
 		},
-	"\/parts\/portfolio-full_text.php": {
+	"\/parts\/portfolio-grid-full_text.php": {
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/parts\/portfolio-full_text.php",
+		"oAP": "\/parts\/portfolio-grid-full_text.php",
 		"oF": 0
 		},
-	"\/parts\/portfolio-image_text.php": {
+	"\/parts\/portfolio-grid-image_text.php": {
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/parts\/portfolio-image_text.php",
+		"oAP": "\/parts\/portfolio-grid-image_text.php",
 		"oF": 0
 		},
-	"\/parts\/portfolio-missing.php": {
+	"\/parts\/portfolio-grid-missing.php": {
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/parts\/portfolio-missing.php",
+		"oAP": "\/parts\/portfolio-grid-missing.php",
 		"oF": 0
 		},
-	"\/parts\/portfolio-quote.php": {
+	"\/parts\/portfolio-grid-quote.php": {
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/parts\/portfolio-quote.php",
+		"oAP": "\/parts\/portfolio-grid-quote.php",
 		"oF": 0
 		},
-	"\/parts\/portfolio-two_photos.php": {
+	"\/parts\/portfolio-grid-two_photos.php": {
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/parts\/portfolio-two_photos.php",
+		"oAP": "\/parts\/portfolio-grid-two_photos.php",
 		"oF": 0
 		},
 	"\/README.md": {
