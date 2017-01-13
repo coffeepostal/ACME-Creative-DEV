@@ -30,12 +30,30 @@
 	if(get_field('jump_links_onoff')):
 		// check if the repeater field has rows of data
 		if( have_rows('jump_links') ):
+
+			//	Count the Jump Links and Chnage the Layout depending on how many there are
+			$jump_links = get_field('jump_links');
+			$jump_link_count = count($jump_links);
+
+			switch ($jump_link_count) {
+			    case 1:
+			        $jump_link_classes = 'medium-3 medium-centered columns text-center';
+			        break;
+			    case 2:
+			        $jump_link_classes = 'medium-6 columns text-center';
+			        break;
+				case 3:
+			        $jump_link_classes = 'medium-4 columns text-center';
+			        break;
+				default:
+					$jump_link_classes = 'medium-3 columns text-center';
+			}
 ?>
 		<div id="jump-links" class="row hide-for-small-only">
 <?php
 			while ( have_rows('jump_links') ) : the_row();
 ?>
-			<div class="medium-3 columns text-center">
+			<div class="<?php echo $jump_link_classes;">
 				<a href="#<?php the_sub_field('section_id'); ?>">
 					<h3><?php the_sub_field('link_text'); ?></h3>
 					<img src="<?php echo get_template_directory_uri(); ?>/assets/images/ico-arrow_down.png" alt="Take me to: <?php the_sub_field('section_id'); ?>">
