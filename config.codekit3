@@ -435,12 +435,6 @@
 		"oF": 0,
 		"opt": 0
 		},
-	"\/assets\/images\/favicomatic\/code.txt": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/images\/favicomatic\/code.txt",
-		"oF": 0
-		},
 	"\/assets\/images\/favicomatic\/favicon-128.png": {
 		"ft": 32768,
 		"iS": 2882,
@@ -6188,19 +6182,19 @@
 		"oAP": "\/comments.php",
 		"oF": 0
 		},
+	"\/favicon-96x96.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/favicon-96x96.png",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/favicon.ico": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/favicon.ico",
 		"oF": 0
-		},
-	"\/favicon.png": {
-		"ft": 32768,
-		"iS": 18738,
-		"oA": 0,
-		"oAP": "\/favicon.png",
-		"oF": 0,
-		"opt": 0
 		},
 	"\/footer.php": {
 		"ft": 8192,
