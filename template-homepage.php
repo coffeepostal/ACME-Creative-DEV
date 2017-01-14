@@ -10,23 +10,23 @@ Template Name: Homepage
 
 <?php
 	//	Portfolio Grid
-	if ( have_rows('portfolio_left' ) || have_rows('portfolio_right' ) ):
+	if ( have_rows('portfolio_grid_left' ) || have_rows('portfolio_grid_right' ) ):
 ?>
 
-	<section id="homepage-portfolio">
+	<section id="homepage-portfolio-grid">
 		<div class="row collapse">
 
 <?php
 		// check if the repeater field has rows of data
-		if( have_rows('portfolio_left') ):
+		if( have_rows('portfolio_grid_left') ):
 ?>
 
 			<div class="medium-6 columns">
 
 <?php
 		 	// loop through the rows of data
-		    while ( have_rows('portfolio_left') ) : the_row();
-				$title = get_sub_field('new_link');
+		    while ( have_rows('portfolio_grid_left') ) : the_row();
+				$title = get_sub_field('title');
 				$image = get_sub_field('image');
 				$grid_layout = get_sub_field('grid_layout');
 				$page_link = get_sub_field('page_link');
@@ -50,14 +50,14 @@ Template Name: Homepage
 		endif;
 
 		// check if the repeater field has rows of data
-		if( have_rows('portfolio_right') ):
+		if( have_rows('portfolio_grid_right') ):
 ?>
 
 			<div class="medium-6 columns">
 
 <?php
 		 	// loop through the rows of data
-		    while ( have_rows('portfolio_right') ) : the_row();
+		    while ( have_rows('portfolio_grid_right') ) : the_row();
 				$title = get_sub_field('title');
 				$image = get_sub_field('image');
 				$grid_layout = get_sub_field('grid_layout');

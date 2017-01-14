@@ -4631,10 +4631,10 @@ section#call-to-action {
     font-size: 1.5rem;
     margin-bottom: 0; }
 
-section#homepage-portfolio {
+section#homepage-portfolio-grid {
   background-color: #383534;
   padding: 5.625rem 0; }
-  section#homepage-portfolio h1, section#homepage-portfolio h2, section#homepage-portfolio h3, section#homepage-portfolio h4, section#homepage-portfolio h5, section#homepage-portfolio h6, section#homepage-portfolio p {
+  section#homepage-portfolio-grid h1, section#homepage-portfolio-grid h2, section#homepage-portfolio-grid h3, section#homepage-portfolio-grid h4, section#homepage-portfolio-grid h5, section#homepage-portfolio-grid h6, section#homepage-portfolio-grid p {
     color: #383534; }
 
 div.item {
@@ -4781,7 +4781,8 @@ div#portfolio {
   div#portfolio div.portfolio-section div.portfolio-item {
     background-image: url("/wp-content/uploads/2016/10/acme-feature-square-ryonet2.jpg");
     background-size: cover;
-    background-repeat: no-repeat; }
+    background-repeat: no-repeat;
+    background-position: center center; }
     div#portfolio div.portfolio-section div.portfolio-item div.portfolio-container {
       background-color: rgba(56, 53, 52, 0.6);
       margin-bottom: 2.8125rem;

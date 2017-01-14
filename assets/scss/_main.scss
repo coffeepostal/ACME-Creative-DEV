@@ -380,7 +380,7 @@ section#call-to-action {
 		margin-bottom: 0;
 	}
 }
-section#homepage-portfolio {
+section#homepage-portfolio-grid {
 	background-color: $secondary-color;
 	padding: rem-calc(90 0);
 	h1, h2, h3, h4, h5, h6, p {
@@ -564,6 +564,7 @@ div#portfolio {
 			background-image: url('/wp-content/uploads/2016/10/acme-feature-square-ryonet2.jpg');
 			background-size: cover;
 			background-repeat: no-repeat;
+			background-position: center center;
 
 			div.portfolio-container {
 				background-color: rgba($secondary-color, 0.6);
