@@ -96,7 +96,7 @@ Template Name: Portfolio
 								<div id="portfolio-name" class="h1"><?php echo $portfolio_item_name; ?></div>
 								<p id="portfolio-type" class="lead"><?php echo $portfolio_item_type; ?></p>
 							</div>
-							<a href="<?php echo $portfolio_item_link; ?>" class="button portfolio-link">View Case Study</a>
+							<a href="<?php echo $portfolio_item_link; ?>" class="button portfolio-link">View More</a>
 						</div>
 					</div>
 				</div>

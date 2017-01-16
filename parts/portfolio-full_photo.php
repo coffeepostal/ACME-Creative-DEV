@@ -8,6 +8,11 @@
 ?>
 
 <div id="portfolio-full_photo" <?php echo $background_color; ?>>
+
+	<div class="overlay">
+		<p>Nulla facilisi. Suspendisse molestie elit dapibus gravida ultricies. Donec non bibendum libero. Integer et leo euismod, mattis libero vitae, fringilla lorem. Suspendisse aliquam quis nulla a porttitor. Nullam luctus metus ultricies dolor sodales tincidunt. Morbi aliquet nisi id risus vulputate aliquam.</p>
+	</div>
+
     <div class="row">
         <div class="medium-12 columns">
 
