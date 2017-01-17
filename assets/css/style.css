@@ -4825,12 +4825,86 @@ div#portfolio {
 
 div#portfolio-full_photo {
   padding: 1rem 0; }
+  div#portfolio-full_photo .overlay {
+    position: relative; }
+    div#portfolio-full_photo .overlay:hover img {
+      opacity: 0.5;
+      -webkit-filter: blur(0.3125rem);
+              filter: blur(0.3125rem); }
+    div#portfolio-full_photo .overlay:hover .overlay-content {
+      opacity: 1; }
+    div#portfolio-full_photo .overlay img {
+      -webkit-transition: opacity 0.5s, -webkit-filter 0.5s;
+      transition: opacity 0.5s, -webkit-filter 0.5s;
+      transition: opacity 0.5s, filter 0.5s;
+      transition: opacity 0.5s, filter 0.5s, -webkit-filter 0.5s; }
+    div#portfolio-full_photo .overlay .overlay-content {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      padding: 4rem;
+      opacity: 0;
+      -webkit-transition: opacity 0.5s;
+      transition: opacity 0.5s; }
+      @media screen and (max-width: 39.9375em) {
+        div#portfolio-full_photo .overlay .overlay-content {
+          padding: 2rem; } }
+      div#portfolio-full_photo .overlay .overlay-content p {
+        font-size: 2.25rem;
+        line-height: 1.2;
+        position: relative;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+                transform: translateY(-50%); }
+        @media screen and (max-width: 39.9375em) {
+          div#portfolio-full_photo .overlay .overlay-content p {
+            font-size: 1.5rem;
+            line-height: 1.2; } }
 
 div#portfolio-two_photos {
   padding: 1rem 0; }
   @media screen and (max-width: 39.9375em) {
     div#portfolio-two_photos div.row div.medium-6:first-child {
       padding-bottom: 2rem; } }
+  div#portfolio-two_photos .overlay {
+    position: relative; }
+    div#portfolio-two_photos .overlay:hover img {
+      opacity: 0.5;
+      -webkit-filter: blur(0.3125rem);
+              filter: blur(0.3125rem); }
+    div#portfolio-two_photos .overlay:hover .overlay-content {
+      opacity: 1; }
+    div#portfolio-two_photos .overlay img {
+      -webkit-transition: opacity 0.5s, -webkit-filter 0.5s;
+      transition: opacity 0.5s, -webkit-filter 0.5s;
+      transition: opacity 0.5s, filter 0.5s;
+      transition: opacity 0.5s, filter 0.5s, -webkit-filter 0.5s; }
+    div#portfolio-two_photos .overlay .overlay-content {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      padding: 4rem;
+      opacity: 0;
+      -webkit-transition: opacity 0.5s;
+      transition: opacity 0.5s; }
+      @media screen and (max-width: 39.9375em) {
+        div#portfolio-two_photos .overlay .overlay-content {
+          padding: 2rem; } }
+      div#portfolio-two_photos .overlay .overlay-content p {
+        font-size: 2.25rem;
+        line-height: 1.2;
+        position: relative;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+                transform: translateY(-50%); }
+        @media screen and (max-width: 39.9375em) {
+          div#portfolio-two_photos .overlay .overlay-content p {
+            font-size: 1.5rem;
+            line-height: 1.2; } }
 
 div#portfolio-full_text {
   padding: 2rem 0; }

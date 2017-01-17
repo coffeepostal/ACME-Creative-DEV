@@ -9,19 +9,23 @@
 
 <div id="portfolio-full_photo" <?php echo $background_color; ?>>
 
-	<div class="overlay">
-		<p>Nulla facilisi. Suspendisse molestie elit dapibus gravida ultricies. Donec non bibendum libero. Integer et leo euismod, mattis libero vitae, fringilla lorem. Suspendisse aliquam quis nulla a porttitor. Nullam luctus metus ultricies dolor sodales tincidunt. Morbi aliquet nisi id risus vulputate aliquam.</p>
-	</div>
-
     <div class="row">
         <div class="medium-12 columns">
 
 <?php
+    if ( get_sub_field('text_overlay') ):
+?>
+
+            <div class="overlay">
+
+<?php
+    endif;
+
     if( $toggle == 'single' ):
         if( !empty($single_photo) ):
 ?>
 
-	       <img src="<?php echo $single_photo['sizes']['large']; ?>" alt="<?php echo $single_photo['alt']; ?>" />
+            <img src="<?php echo $single_photo['sizes']['large']; ?>" alt="<?php echo $single_photo['alt']; ?>" />
 
 <?php
         endif;
@@ -51,7 +55,19 @@
     else:
         echo '	       <h1>What fresh hell is this?</h1>';
     endif;
+
+    if ( get_sub_field('text_overlay') ):
 ?>
+
+                <div class="overlay-content">
+                    <p><?php echo get_sub_field('text_overlay_content'); ?></p>
+                </div>
+
+<?php
+    endif;
+?>
+
+            </div>
         </div>
     </div>
 </div>

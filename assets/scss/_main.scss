@@ -552,7 +552,7 @@ section#testimonials {
 }
 
 //	PORTFOLIO
-$portfolio-tranision-speed: 0.5s;
+$portfolio-transition-speed: 0.5s;
 
 div#portfolio {
 
@@ -570,7 +570,7 @@ div#portfolio {
 				background-color: rgba($secondary-color, 0.6);
 				margin-bottom: rem-calc(45);
 				padding: rem-calc(200 100);
-				transition: background-color $portfolio-tranision-speed;
+				transition: background-color $portfolio-transition-speed;
 
 				&:hover {
 					background-color: rgba($primary-color, 0.6);
@@ -583,7 +583,7 @@ div#portfolio {
 				}
 				div.portolio-text {
 					transform: translate(0, rem-calc(30));
-					transition: transform $portfolio-tranision-speed;
+					transition: transform $portfolio-transition-speed;
 
 					div#portfolio-name {
 						font-family: $header-font-family;
@@ -608,7 +608,7 @@ div#portfolio {
 				a.button.portfolio-link {
 					text-transform: uppercase;
 					opacity: 0;
-					transition: opacity $portfolio-tranision-speed;
+					transition: opacity $portfolio-transition-speed;
 				}
 			}
 		}
@@ -627,6 +627,50 @@ div#portfolio {
 
 div#portfolio-full_photo {
 	padding: rem-calc(16 0);
+	.overlay {
+		position: relative;
+
+		&:hover {
+			img {
+				opacity: 0.5;
+				filter: blur(rem-calc(5));
+			}
+			.overlay-content {
+				opacity: 1;
+			}
+		}
+
+		img {
+			transition: opacity $portfolio-transition-speed, filter $portfolio-transition-speed;
+		}
+
+		.overlay-content {
+			position: absolute;
+			top: 0;
+		    left: 0;
+			width: 100%;
+			height: 100%;
+			padding: rem-calc(64);
+			opacity: 0;
+			transition: opacity $portfolio-transition-speed;
+
+			@media screen and (max-width: 39.9375em) {
+				padding: rem-calc(32);
+			}
+
+			p {
+				font-size: rem-calc(36);
+				line-height: 1.2;
+				position: relative;
+				top: 50%;
+				transform: translateY(-50%);
+				@media screen and (max-width: 39.9375em) {
+					font-size: rem-calc(24);
+					line-height: 1.2;
+				}
+			}
+		}
+	}
 }
 div#portfolio-two_photos {
 	padding: rem-calc(16 0);
@@ -635,6 +679,51 @@ div#portfolio-two_photos {
 		div.row {
 			div.medium-6:first-child {
 				padding-bottom: rem-calc(32);
+			}
+		}
+	}
+
+	.overlay {
+		position: relative;
+
+		&:hover {
+			img {
+				opacity: 0.5;
+				filter: blur(rem-calc(5));
+			}
+			.overlay-content {
+				opacity: 1;
+			}
+		}
+
+		img {
+			transition: opacity $portfolio-transition-speed, filter $portfolio-transition-speed;
+		}
+
+		.overlay-content {
+			position: absolute;
+			top: 0;
+		    left: 0;
+			width: 100%;
+			height: 100%;
+			padding: rem-calc(64);
+			opacity: 0;
+			transition: opacity $portfolio-transition-speed;
+
+			@media screen and (max-width: 39.9375em) {
+				padding: rem-calc(32);
+			}
+
+			p {
+				font-size: rem-calc(36);
+				line-height: 1.2;
+				position: relative;
+				top: 50%;
+				transform: translateY(-50%);
+				@media screen and (max-width: 39.9375em) {
+					font-size: rem-calc(24);
+					line-height: 1.2;
+				}
 			}
 		}
 	}
