@@ -1,0 +1,281 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 3117423, 2015-10-30T18:54:03-0400
+ *
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are
+ * explicitly restricted from using the Licensed Webfonts(s).
+ *
+ * You may obtain a valid license at the URLs below.
+ *
+ * Webfont: Adagio_Slab-Black by BORUTTA GROUP
+ * URL: http://www.myfonts.com/fonts/borutta/adagio-slab/black/
+ * Copyright: MATEUSZ MACHALSKI
+ *
+ * Webfont: Adagio_Slab-Black-Italic by BORUTTA GROUP
+ * URL: http://www.myfonts.com/fonts/borutta/adagio-slab/black-italic/
+ *
+ * Webfont: Adagio_Slab-Bold by BORUTTA GROUP
+ * URL: http://www.myfonts.com/fonts/borutta/adagio-slab/bold/
+ * Copyright: MATEUSZ MACHALSKI
+ *
+ * Webfont: Adagio_Slab-Bold-Italic by BORUTTA GROUP
+ * URL: http://www.myfonts.com/fonts/borutta/adagio-slab/bold-italic/
+ *
+ * Webfont: Adagio_Slab-ExtraLight by BORUTTA GROUP
+ * URL: http://www.myfonts.com/fonts/borutta/adagio-slab/extra-light/
+ * Copyright: MATEUSZ MACHALSKI
+ *
+ * Webfont: Adagio_Slab-ExtraLight-Italic by BORUTTA GROUP
+ * URL: http://www.myfonts.com/fonts/borutta/adagio-slab/extra-light-italic/
+ *
+ * Webfont: Adagio_Slab-Heavy by BORUTTA GROUP
+ * URL: http://www.myfonts.com/fonts/borutta/adagio-slab/heavy/
+ * Copyright: MATEUSZ MACHALSKI
+ *
+ * Webfont: Adagio_Slab-Heavy-Italic by BORUTTA GROUP
+ * URL: http://www.myfonts.com/fonts/borutta/adagio-slab/heavy-italic/
+ *
+ * Webfont: Adagio_Slab-Light by BORUTTA GROUP
+ * URL: http://www.myfonts.com/fonts/borutta/adagio-slab/light/
+ * Copyright: MATEUSZ MACHALSKI
+ *
+ * Webfont: Adagio_Slab-Light-Italic by BORUTTA GROUP
+ * URL: http://www.myfonts.com/fonts/borutta/adagio-slab/light-italic/
+ *
+ * Webfont: Adagio_Slab-Medium by BORUTTA GROUP
+ * URL: http://www.myfonts.com/fonts/borutta/adagio-slab/medium/
+ * Copyright: MATEUSZ MACHALSKI
+ *
+ * Webfont: Adagio_Slab-Medium-Italic by BORUTTA GROUP
+ * URL: http://www.myfonts.com/fonts/borutta/adagio-slab/medium-italic/
+ *
+ * Webfont: Adagio_Slab-Regular by BORUTTA GROUP
+ * URL: http://www.myfonts.com/fonts/borutta/adagio-slab/regular/
+ * Copyright: MATEUSZ MACHALSKI
+ *
+ * Webfont: Adagio_Slab-Regular-Italic by BORUTTA GROUP
+ * URL: http://www.myfonts.com/fonts/borutta/adagio-slab/regular-italic/
+ *
+ * Webfont: Adagio_Slab-SemiBold by BORUTTA GROUP
+ * URL: http://www.myfonts.com/fonts/borutta/adagio-slab/semi-bold/
+ * Copyright: MATEUSZ MACHALSKI
+ *
+ * Webfont: Adagio_Slab-SemiBold-Italic by BORUTTA GROUP
+ * URL: http://www.myfonts.com/fonts/borutta/adagio-slab/semi-bold-italic/
+ *
+ * Webfont: Adagio_Slab-Thin by BORUTTA GROUP
+ * URL: http://www.myfonts.com/fonts/borutta/adagio-slab/thin/
+ * Copyright: MATEUSZ MACHALSKI
+ *
+ * Webfont: Adagio_Slab-Thin-Italic by BORUTTA GROUP
+ * URL: http://www.myfonts.com/fonts/borutta/adagio-slab/thin-italic/
+ *
+ *
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=3117423
+ * Licensed pageviews: 10,000
+ *
+ * © 2015 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/Adagio_Slab");
+
+@font-face {
+	font-family: 'Adagio_Slab';
+	src: url('Adagio_Slab-ExtraLight.eot');
+	src: url('Adagio_Slab-ExtraLight.eot?#iefix') format('embedded-opentype'),
+		 url('Adagio_Slab-ExtraLight.woff2') format('woff2'),
+		 url('Adagio_Slab-ExtraLight.woff') format('woff'),
+		 url('Adagio_Slab-ExtraLight.ttf') format('truetype');
+	font-weight: 100;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Adagio_Slab';
+	src: url('Adagio_Slab-ExtraLight-Italic.eot');
+	src: url('Adagio_Slab-ExtraLight-Italic.eot?#iefix') format('embedded-opentype'),
+		 url('Adagio_Slab-ExtraLight-Italic.woff2') format('woff2'),
+		 url('Adagio_Slab-ExtraLight-Italic.woff') format('woff'),
+		 url('Adagio_Slab-ExtraLight-Italic.ttf') format('truetype');
+	font-weight: 100;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Adagio_Slab';
+	src: url('Adagio_Slab-Thin.eot');
+	src: url('Adagio_Slab-Thin.eot?#iefix') format('embedded-opentype'),
+		 url('Adagio_Slab-Thin.woff2') format('woff2'),
+		 url('Adagio_Slab-Thin.woff') format('woff'),
+		 url('Adagio_Slab-Thin.ttf') format('truetype');
+	font-weight: 200;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Adagio_Slab';
+	src: url('Adagio_Slab-Thin-Italic.eot');
+	src: url('Adagio_Slab-Thin-Italic.eot?#iefix') format('embedded-opentype'),
+		 url('Adagio_Slab-Thin-Italic.woff2') format('woff2'),
+		 url('Adagio_Slab-Thin-Italic.woff') format('woff'),
+		 url('Adagio_Slab-Thin-Italic.ttf') format('truetype');
+	font-weight: 200;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Adagio_Slab';
+	src: url('Adagio_Slab-Light.eot');
+	src: url('Adagio_Slab-Light.eot?#iefix') format('embedded-opentype'),
+		 url('Adagio_Slab-Light.woff2') format('woff2'),
+		 url('Adagio_Slab-Light.woff') format('woff'),
+		 url('Adagio_Slab-Light.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Adagio_Slab';
+	src: url('Adagio_Slab-Light-Italic.eot');
+	src: url('Adagio_Slab-Light-Italic.eot?#iefix') format('embedded-opentype'),
+		 url('Adagio_Slab-Light-Italic.woff2') format('woff2'),
+		 url('Adagio_Slab-Light-Italic.woff') format('woff'),
+		 url('Adagio_Slab-Light-Italic.ttf') format('truetype');
+	font-weight: 300;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Adagio_Slab';
+	src: url('Adagio_Slab-Regular.eot');
+	src: url('Adagio_Slab-Regular.eot?#iefix') format('embedded-opentype'),
+		 url('Adagio_Slab-Regular.woff2') format('woff2'),
+		 url('Adagio_Slab-Regular.woff') format('woff'),
+		 url('Adagio_Slab-Regular.ttf') format('truetype');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Adagio_Slab';
+	src: url('Adagio_Slab-Regular-Italic.eot');
+	src: url('Adagio_Slab-Regular-Italic.eot?#iefix') format('embedded-opentype'),
+		 url('Adagio_Slab-Regular-Italic.woff2') format('woff2'),
+		 url('Adagio_Slab-Regular-Italic.woff') format('woff'),
+		 url('Adagio_Slab-Regular-Italic.ttf') format('truetype');
+	font-weight: 400;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Adagio_Slab';
+	src: url('Adagio_Slab-Medium.eot');
+	src: url('Adagio_Slab-Medium.eot?#iefix') format('embedded-opentype'),
+		 url('Adagio_Slab-Medium.woff2') format('woff2'),
+		 url('Adagio_Slab-Medium.woff') format('woff'),
+		 url('Adagio_Slab-Medium.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Adagio_Slab';
+	src: url('Adagio_Slab-Medium-Italic.eot');
+	src: url('Adagio_Slab-Medium-Italic.eot?#iefix') format('embedded-opentype'),
+		 url('Adagio_Slab-Medium-Italic.woff2') format('woff2'),
+		 url('Adagio_Slab-Medium-Italic.woff') format('woff'),
+		 url('Adagio_Slab-Medium-Italic.ttf') format('truetype');
+	font-weight: 500;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Adagio_Slab';
+	src: url('Adagio_Slab-SemiBold.eot');
+	src: url('Adagio_Slab-SemiBold.eot?#iefix') format('embedded-opentype'),
+		 url('Adagio_Slab-SemiBold.woff2') format('woff2'),
+		 url('Adagio_Slab-SemiBold.woff') format('woff'),
+		 url('Adagio_Slab-SemiBold.ttf') format('truetype');
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Adagio_Slab';
+	src: url('Adagio_Slab-SemiBold-Italic.eot');
+	src: url('Adagio_Slab-SemiBold-Italic.eot?#iefix') format('embedded-opentype'),
+		 url('Adagio_Slab-SemiBold-Italic.woff2') format('woff2'),
+		 url('Adagio_Slab-SemiBold-Italic.woff') format('woff'),
+		 url('Adagio_Slab-SemiBold-Italic.ttf') format('truetype');
+	font-weight: 600;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Adagio_Slab';
+	src: url('Adagio_Slab-Bold.eot');
+	src: url('Adagio_Slab-Bold.eot?#iefix') format('embedded-opentype'),
+		 url('Adagio_Slab-Bold.woff2') format('woff2'),
+		 url('Adagio_Slab-Bold.woff') format('woff'),
+		 url('Adagio_Slab-Bold.ttf') format('truetype');
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Adagio_Slab';
+	src: url('Adagio_Slab-Bold-Italic.eot');
+	src: url('Adagio_Slab-Bold-Italic.eot?#iefix') format('embedded-opentype'),
+		 url('Adagio_Slab-Bold-Italic.woff2') format('woff2'),
+		 url('Adagio_Slab-Bold-Italic.woff') format('woff'),
+		 url('Adagio_Slab-Bold-Italic.ttf') format('truetype');
+	font-weight: 700;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Adagio_Slab';
+	src: url('Adagio_Slab-Black.eot');
+	src: url('Adagio_Slab-Black.eot?#iefix') format('embedded-opentype'),
+		 url('Adagio_Slab-Black.woff2') format('woff2'),
+		 url('Adagio_Slab-Black.woff') format('woff'),
+		 url('Adagio_Slab-Black.ttf') format('truetype');
+	font-weight: 800;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Adagio_Slab';
+	src: url('Adagio_Slab-Black-Italic.eot');
+	src: url('Adagio_Slab-Black-Italic.eot?#iefix') format('embedded-opentype'),
+		 url('Adagio_Slab-Black-Italic.woff2') format('woff2'),
+		 url('Adagio_Slab-Black-Italic.woff') format('woff'),
+		 url('Adagio_Slab-Black-Italic.ttf') format('truetype');
+	font-weight: 800;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Adagio_Slab';
+	src: url('Adagio_Slab-Heavy.eot');
+	src: url('Adagio_Slab-Heavy.eot?#iefix') format('embedded-opentype'),
+		 url('Adagio_Slab-Heavy.woff2') format('woff2'),
+		 url('Adagio_Slab-Heavy.woff') format('woff'),
+		 url('Adagio_Slab-Heavy.ttf') format('truetype');
+	font-weight: 900;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Adagio_Slab';
+	src: url('Adagio_Slab-Heavy-Italic.eot');
+	src: url('Adagio_Slab-Heavy-Italic.eot?#iefix') format('embedded-opentype'),
+		 url('Adagio_Slab-Heavy-Italic.woff2') format('woff2'),
+		 url('Adagio_Slab-Heavy-Italic.woff') format('woff'),
+		 url('Adagio_Slab-Heavy-Italic.ttf') format('truetype');
+	font-weight: 900;
+	font-style: italic;
+}

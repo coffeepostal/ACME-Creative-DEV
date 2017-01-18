@@ -85,6 +85,458 @@
 		"oAP": "\/assets\/css\/style.min.css.map",
 		"oF": 0
 		},
+	"\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-Black-Italic.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-Black-Italic.eot",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-Black-Italic.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-Black-Italic.ttf",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-Black-Italic.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-Black-Italic.woff",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-Black-Italic.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-Black-Italic.woff2",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-Black.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-Black.eot",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-Black.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-Black.ttf",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-Black.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-Black.woff",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-Black.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-Black.woff2",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-Bold-Italic.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-Bold-Italic.eot",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-Bold-Italic.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-Bold-Italic.ttf",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-Bold-Italic.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-Bold-Italic.woff",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-Bold-Italic.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-Bold-Italic.woff2",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-Bold.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-Bold.eot",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-Bold.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-Bold.ttf",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-Bold.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-Bold.woff",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-Bold.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-Bold.woff2",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-ExtraLight-Italic.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-ExtraLight-Italic.eot",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-ExtraLight-Italic.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-ExtraLight-Italic.ttf",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-ExtraLight-Italic.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-ExtraLight-Italic.woff",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-ExtraLight-Italic.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-ExtraLight-Italic.woff2",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-ExtraLight.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-ExtraLight.eot",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-ExtraLight.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-ExtraLight.ttf",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-ExtraLight.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-ExtraLight.woff",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-ExtraLight.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-ExtraLight.woff2",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-Heavy-Italic.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-Heavy-Italic.eot",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-Heavy-Italic.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-Heavy-Italic.ttf",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-Heavy-Italic.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-Heavy-Italic.woff",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-Heavy-Italic.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-Heavy-Italic.woff2",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-Heavy.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-Heavy.eot",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-Heavy.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-Heavy.ttf",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-Heavy.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-Heavy.woff",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-Heavy.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-Heavy.woff2",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-Light-Italic.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-Light-Italic.eot",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-Light-Italic.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-Light-Italic.ttf",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-Light-Italic.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-Light-Italic.woff",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-Light-Italic.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-Light-Italic.woff2",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-Light.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-Light.eot",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-Light.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-Light.ttf",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-Light.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-Light.woff",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-Light.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-Light.woff2",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-Medium-Italic.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-Medium-Italic.eot",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-Medium-Italic.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-Medium-Italic.ttf",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-Medium-Italic.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-Medium-Italic.woff",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-Medium-Italic.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-Medium-Italic.woff2",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-Medium.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-Medium.eot",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-Medium.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-Medium.ttf",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-Medium.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-Medium.woff",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-Medium.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-Medium.woff2",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-min.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-min-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-Regular-Italic.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-Regular-Italic.eot",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-Regular-Italic.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-Regular-Italic.ttf",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-Regular-Italic.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-Regular-Italic.woff",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-Regular-Italic.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-Regular-Italic.woff2",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-Regular.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-Regular.eot",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-Regular.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-Regular.ttf",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-Regular.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-Regular.woff",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-Regular.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-Regular.woff2",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-SemiBold-Italic.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-SemiBold-Italic.eot",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-SemiBold-Italic.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-SemiBold-Italic.ttf",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-SemiBold-Italic.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-SemiBold-Italic.woff",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-SemiBold-Italic.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-SemiBold-Italic.woff2",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-SemiBold.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-SemiBold.eot",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-SemiBold.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-SemiBold.ttf",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-SemiBold.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-SemiBold.woff",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-SemiBold.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-SemiBold.woff2",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-Thin-Italic.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-Thin-Italic.eot",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-Thin-Italic.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-Thin-Italic.ttf",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-Thin-Italic.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-Thin-Italic.woff",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-Thin-Italic.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-Thin-Italic.woff2",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-Thin.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-Thin.eot",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-Thin.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-Thin.ttf",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-Thin.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-Thin.woff",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-Thin.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-Thin.woff2",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Adagio_Slab\/Adagio_Slab.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Adagio_Slab\/Adagio_Slab-min.css",
+		"oF": 0,
+		"oS": 0
+		},
 	"\/assets\/fonts\/Arquitecta\/ArquitectaBlack-Italic-webfont.eot": {
 		"ft": 8192,
 		"oA": 2,
@@ -152,259 +604,6 @@
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/Arquitecta\/ArquitectaBlack-webfont.woff2",
 		"oF": 0
-		},
-	"\/assets\/fonts\/TTBells\/TTBells-Black-Italic.eot": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/fonts\/TTBells\/TTBells-Black-Italic.eot",
-		"oF": 0
-		},
-	"\/assets\/fonts\/TTBells\/TTBells-Black-Italic.ttf": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/fonts\/TTBells\/TTBells-Black-Italic.ttf",
-		"oF": 0
-		},
-	"\/assets\/fonts\/TTBells\/TTBells-Black-Italic.woff": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/fonts\/TTBells\/TTBells-Black-Italic.woff",
-		"oF": 0
-		},
-	"\/assets\/fonts\/TTBells\/TTBells-Black-Italic.woff2": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/fonts\/TTBells\/TTBells-Black-Italic.woff2",
-		"oF": 0
-		},
-	"\/assets\/fonts\/TTBells\/TTBells-Black-Normal.eot": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/fonts\/TTBells\/TTBells-Black-Normal.eot",
-		"oF": 0
-		},
-	"\/assets\/fonts\/TTBells\/TTBells-Black-Normal.ttf": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/fonts\/TTBells\/TTBells-Black-Normal.ttf",
-		"oF": 0
-		},
-	"\/assets\/fonts\/TTBells\/TTBells-Black-Normal.woff": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/fonts\/TTBells\/TTBells-Black-Normal.woff",
-		"oF": 0
-		},
-	"\/assets\/fonts\/TTBells\/TTBells-Black-Normal.woff2": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/fonts\/TTBells\/TTBells-Black-Normal.woff2",
-		"oF": 0
-		},
-	"\/assets\/fonts\/TTBells\/TTBells-Bold-Italic.eot": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/fonts\/TTBells\/TTBells-Bold-Italic.eot",
-		"oF": 0
-		},
-	"\/assets\/fonts\/TTBells\/TTBells-Bold-Italic.ttf": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/fonts\/TTBells\/TTBells-Bold-Italic.ttf",
-		"oF": 0
-		},
-	"\/assets\/fonts\/TTBells\/TTBells-Bold-Italic.woff": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/fonts\/TTBells\/TTBells-Bold-Italic.woff",
-		"oF": 0
-		},
-	"\/assets\/fonts\/TTBells\/TTBells-Bold-Italic.woff2": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/fonts\/TTBells\/TTBells-Bold-Italic.woff2",
-		"oF": 0
-		},
-	"\/assets\/fonts\/TTBells\/TTBells-Bold-Normal.eot": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/fonts\/TTBells\/TTBells-Bold-Normal.eot",
-		"oF": 0
-		},
-	"\/assets\/fonts\/TTBells\/TTBells-Bold-Normal.ttf": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/fonts\/TTBells\/TTBells-Bold-Normal.ttf",
-		"oF": 0
-		},
-	"\/assets\/fonts\/TTBells\/TTBells-Bold-Normal.woff": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/fonts\/TTBells\/TTBells-Bold-Normal.woff",
-		"oF": 0
-		},
-	"\/assets\/fonts\/TTBells\/TTBells-Bold-Normal.woff2": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/fonts\/TTBells\/TTBells-Bold-Normal.woff2",
-		"oF": 0
-		},
-	"\/assets\/fonts\/TTBells\/TTBells-Light-Italic.eot": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/fonts\/TTBells\/TTBells-Light-Italic.eot",
-		"oF": 0
-		},
-	"\/assets\/fonts\/TTBells\/TTBells-Light-Italic.ttf": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/fonts\/TTBells\/TTBells-Light-Italic.ttf",
-		"oF": 0
-		},
-	"\/assets\/fonts\/TTBells\/TTBells-Light-Italic.woff": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/fonts\/TTBells\/TTBells-Light-Italic.woff",
-		"oF": 0
-		},
-	"\/assets\/fonts\/TTBells\/TTBells-Light-Italic.woff2": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/fonts\/TTBells\/TTBells-Light-Italic.woff2",
-		"oF": 0
-		},
-	"\/assets\/fonts\/TTBells\/TTBells-Light-Normal.eot": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/fonts\/TTBells\/TTBells-Light-Normal.eot",
-		"oF": 0
-		},
-	"\/assets\/fonts\/TTBells\/TTBells-Light-Normal.ttf": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/fonts\/TTBells\/TTBells-Light-Normal.ttf",
-		"oF": 0
-		},
-	"\/assets\/fonts\/TTBells\/TTBells-Light-Normal.woff": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/fonts\/TTBells\/TTBells-Light-Normal.woff",
-		"oF": 0
-		},
-	"\/assets\/fonts\/TTBells\/TTBells-Light-Normal.woff2": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/fonts\/TTBells\/TTBells-Light-Normal.woff2",
-		"oF": 0
-		},
-	"\/assets\/fonts\/TTBells\/TTBells-Regular-Italic.eot": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/fonts\/TTBells\/TTBells-Regular-Italic.eot",
-		"oF": 0
-		},
-	"\/assets\/fonts\/TTBells\/TTBells-Regular-Italic.ttf": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/fonts\/TTBells\/TTBells-Regular-Italic.ttf",
-		"oF": 0
-		},
-	"\/assets\/fonts\/TTBells\/TTBells-Regular-Italic.woff": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/fonts\/TTBells\/TTBells-Regular-Italic.woff",
-		"oF": 0
-		},
-	"\/assets\/fonts\/TTBells\/TTBells-Regular-Italic.woff2": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/fonts\/TTBells\/TTBells-Regular-Italic.woff2",
-		"oF": 0
-		},
-	"\/assets\/fonts\/TTBells\/TTBells-Regular-Normal.eot": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/fonts\/TTBells\/TTBells-Regular-Normal.eot",
-		"oF": 0
-		},
-	"\/assets\/fonts\/TTBells\/TTBells-Regular-Normal.ttf": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/fonts\/TTBells\/TTBells-Regular-Normal.ttf",
-		"oF": 0
-		},
-	"\/assets\/fonts\/TTBells\/TTBells-Regular-Normal.woff": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/fonts\/TTBells\/TTBells-Regular-Normal.woff",
-		"oF": 0
-		},
-	"\/assets\/fonts\/TTBells\/TTBells-Regular-Normal.woff2": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/fonts\/TTBells\/TTBells-Regular-Normal.woff2",
-		"oF": 0
-		},
-	"\/assets\/fonts\/TTBells\/TTBells-Thin-Italic.eot": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/fonts\/TTBells\/TTBells-Thin-Italic.eot",
-		"oF": 0
-		},
-	"\/assets\/fonts\/TTBells\/TTBells-Thin-Italic.ttf": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/fonts\/TTBells\/TTBells-Thin-Italic.ttf",
-		"oF": 0
-		},
-	"\/assets\/fonts\/TTBells\/TTBells-Thin-Italic.woff": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/fonts\/TTBells\/TTBells-Thin-Italic.woff",
-		"oF": 0
-		},
-	"\/assets\/fonts\/TTBells\/TTBells-Thin-Italic.woff2": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/fonts\/TTBells\/TTBells-Thin-Italic.woff2",
-		"oF": 0
-		},
-	"\/assets\/fonts\/TTBells\/TTBells-Thin-Normal.eot": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/fonts\/TTBells\/TTBells-Thin-Normal.eot",
-		"oF": 0
-		},
-	"\/assets\/fonts\/TTBells\/TTBells-Thin-Normal.ttf": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/fonts\/TTBells\/TTBells-Thin-Normal.ttf",
-		"oF": 0
-		},
-	"\/assets\/fonts\/TTBells\/TTBells-Thin-Normal.woff": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/fonts\/TTBells\/TTBells-Thin-Normal.woff",
-		"oF": 0
-		},
-	"\/assets\/fonts\/TTBells\/TTBells-Thin-Normal.woff2": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/fonts\/TTBells\/TTBells-Thin-Normal.woff2",
-		"oF": 0
-		},
-	"\/assets\/fonts\/TTBells\/TTBells.scss": {
-		"aP": 1,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/assets\/fonts\/css\/TTBells.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
 		},
 	"\/assets\/functions\/acf.php": {
 		"ft": 8192,
