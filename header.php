@@ -38,13 +38,6 @@
 
 	<?php wp_head(); ?>
 
-	<!-- TypeKit -->
-	<script src="https://use.typekit.net/qrm3eaw.js"></script>
-	<script>try{Typekit.load({ async: true });}catch(e){}</script>
-
-	<!-- Drop Google Analytics here -->
-	<!-- end analytics -->
-
 </head>
 
 <!-- Uncomment this line if using the Off-Canvas Menu -->
