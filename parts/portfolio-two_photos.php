@@ -55,15 +55,11 @@
 <div id="portfolio-two_photos" <?php echo $background_color; ?>>
     <div class="row">
 
-<?php
-    if( !empty($image_1) && !empty($image_2) ):
-?>
+		<?php if( !empty($image_1) && !empty($image_2) ):?>
 
         <div class="<?php echo $image_01_classes; ?>">
 
-<?php
-		if ( get_sub_field('text_overlay_01') ):
-?>
+			<?php if ( get_sub_field('text_overlay_01') ):?>
 
 		    <div class="overlay">
 				<img src="<?php echo $image_1['sizes'][$image_01_image_size]; ?>" alt="<?php echo $image_1['alt']; ?>" />
@@ -72,21 +68,17 @@
 				</div>
 			</div>
 
-<?php
-		else:
-?>
+			<?php else: ?>
 
 			<img src="<?php echo $image_1['sizes'][$image_01_image_size]; ?>" alt="<?php echo $image_1['alt']; ?>" />
-<?php
-		endif;
-?>
+
+			<?php endif; ?>
 
         </div>
+
         <div class="<?php echo $image_02_classes; ?>">
 
-<?php
-		if ( get_sub_field('text_overlay_02') ):
-?>
+			<?php if ( get_sub_field('text_overlay_02') ): ?>
 
 		    <div class="overlay">
 				<img src="<?php echo $image_2['sizes'][$image_02_image_size]; ?>" alt="<?php echo $image_2['alt']; ?>" />
@@ -95,21 +87,15 @@
 				</div>
 			</div>
 
-<?php
-		else:
-?>
+			<?php else: ?>
 
 			<img src="<?php echo $image_2['sizes'][$image_02_image_size]; ?>" alt="<?php echo $image_2['alt']; ?>" />
 
-<?php
-        endif;
-?>
+			<?php endif; ?>
 
         </div>
 
-<?php
-    endif;
-?>
+		<?php endif; ?>
 
     </div>
 </div>
