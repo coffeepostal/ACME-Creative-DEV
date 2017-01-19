@@ -2,6 +2,8 @@
 	$feature_image_small = get_field('feature_image_small');
 	$feature_image_medium = get_field('feature_image_medium');
 	$feature_image_large = get_field('feature_image_large');
+	$feature_image_attachment = get_field('image_attachment');
+	$feature_content = get_field('feature_content');
 
 	if( !empty($feature_image_small) ):
 		$feature_image_small_url = $feature_image_small['url'];
@@ -14,13 +16,12 @@
 	endif;
 ?>
 
-	<section id="feature" data-interchange="[<?php echo $feature_image_small_url; ?>, small], [<?php echo $feature_image_medium_url; ?>, medium], [<?php echo $feature_image_large_url; ?>, large]" style="background-position: <?php the_field('image_attachment'); ?>;">
+	<section id="feature" data-interchange="[<?php echo $feature_image_small_url; ?>, small], [<?php echo $feature_image_medium_url; ?>, medium], [<?php echo $feature_image_large_url; ?>, large]" style="background-position: <?php echo $feature_image_attachment; ?>;">
 		<div class="row">
 			<div class="medium-10 medium-centered columns">
 <?php
-	if(get_field('feature_content')):
-		echo '				';
-		the_field('feature_content');
+	if($feature_content):
+		echo '				' . $feature_content;
 	endif;
 ?>
 				&nbsp;
