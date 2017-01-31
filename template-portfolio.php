@@ -65,7 +65,7 @@ Template Name: Portfolio
 
 	 	// loop through the rows of data
 	    while ( have_rows('portfolio_items') ) : the_row();
-			$portfolio_item_name				= get_sub_field('name');
+			$portfolio_item_name = get_sub_field('name');
 
 			//Lower case everything
 			$portfolio_item_ID = strtolower($portfolio_item_name);
@@ -76,10 +76,10 @@ Template Name: Portfolio
 			//Convert whitespaces and underscore to dash
 			$portfolio_item_ID = preg_replace("/[\s_]/", "-", $portfolio_item_ID);
 
-			$portfolio_item_type				= get_sub_field('type');
-			$portfolio_item_link				= get_sub_field('link');
+			$portfolio_item_type = get_sub_field('type');
+			$portfolio_item_link = get_sub_field('link');
 
-			$portfolio_item_background_image	= get_sub_field('background_image');
+			$portfolio_item_background_image = get_sub_field('background_image');
 
 			if( !empty($portfolio_item_background_image) ):
 				$portfolio_item_background_image_small	= $portfolio_item_background_image['sizes'][ 'large' ];
@@ -103,9 +103,6 @@ Template Name: Portfolio
 			</div>
 
 <?php
-	        // display a sub field value
-	        the_sub_field('sub_field_name');
-
 	    endwhile;
 	endif;
 ?>

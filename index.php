@@ -1,108 +1,192 @@
 <?php get_header(); ?>
 
 <?php
-	$feature_image_small = get_field('feature_image_small');
-	$feature_image_medium = get_field('feature_image_medium');
-	$feature_image_large = get_field('feature_image_large');
-	$feature_image_attachment = get_field('image_attachment');
-	$feature_content = get_field('feature_content');
+	// Setup the Query for the Feature
+	$feature_args = array( 'posts_per_page' => 1 );
+	$feature_query = new WP_Query( $feature_args );
 
-	if( !empty($feature_image_small) ):
-		$feature_image_small_url = $feature_image_small['url'];
-	endif;
-	if( !empty($feature_image_medium) ):
-		$feature_image_medium_url = $feature_image_medium['url'];
-	endif;
-	if( !empty($feature_image_large) ):
-		$feature_image_large_url = $feature_image_large['url'];
-	endif;
+	if ( $feature_query->have_posts() ) :
+
+	// pagination here
+
+		while ( $feature_query->have_posts() ) : $feature_query->the_post();
+
+			//	Setup Feature Image Backgrounds
+			$breakout_box_attachment = 'center';
+			if ( has_post_thumbnail() ):
+				$breakout_box_bg_image = get_post_thumbnail_id($post->ID);
+				$feature_image_small_url = wp_get_attachment_image_src( $breakout_box_bg_image, 'feature_small' )[0];
+				$feature_image_retina_url = wp_get_attachment_image_src( $breakout_box_bg_image, 'feature_retina' )[0];
+				$feature_image_medium_url = wp_get_attachment_image_src( $breakout_box_bg_image, 'feature_medium' )[0];
+				$feature_image_large_url = wp_get_attachment_image_src( $breakout_box_bg_image, 'feature_large' )[0];
+				$feature_image_xlarge_url = wp_get_attachment_image_src( $breakout_box_bg_image, 'feature_xlarge' )[0];
+				$feature_image_xxlarge_url = wp_get_attachment_image_src( $breakout_box_bg_image, 'feature_xxlarge' )[0];
+				$feature_image_portrait_url = wp_get_attachment_image_src( $breakout_box_bg_image, 'feature_portrait' )[0];
+				$feature_image_landscape_url = wp_get_attachment_image_src( $breakout_box_bg_image, 'feature_landscape' )[0];
+			else:
+				$breakout_box_bg_image = get_field('default_background_image', 'option');
+				if( !empty($breakout_box_bg_image) ):
+					$feature_image_small_url = $breakout_box_bg_image['sizes']['feature_small'];
+					$feature_image_retina_url = $breakout_box_bg_image['sizes']['feature_retina'];
+					$feature_image_medium_url = $breakout_box_bg_image['sizes']['feature_medium'];
+					$feature_image_large_url = $breakout_box_bg_image['sizes']['feature_large'];
+					$feature_image_xlarge_url = $breakout_box_bg_image['sizes']['feature_xlarge'];
+					$feature_image_xxlarge_url = $breakout_box_bg_image['sizes']['feature_xxlarge'];
+					$feature_image_portrait_url = $breakout_box_bg_image['sizes']['feature_portrait'];
+					$feature_image_landscape_url = $breakout_box_bg_image['sizes']['feature_landscape'];
+				endif;
+			endif;
+
+			//	Setup Feature Image Backgrounds
+			$feature_image_attachment = 'center';
+			if ( has_post_thumbnail() ):
+				$feature_image_small_url = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'small' )[0];
+				$feature_image_retina_url = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'retina' )[0];
+				$feature_image_medium_url = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'medium' )[0];
+				$feature_image_large_url = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'large' )[0];
+				$feature_image_xlarge_url = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'xlarge' )[0];
+				$feature_image_xxlarge_url = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'xxlarge' )[0];
+				$feature_image_portrait_url = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'portrait' )[0];
+				$feature_image_landscape_url = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'landscape' )[0];
+			endif;
 ?>
 
-	<section id="feature" data-interchange="[<?php echo $feature_image_small_url; ?>, small], [<?php echo $feature_image_medium_url; ?>, medium], [<?php echo $feature_image_large_url; ?>, large]" style="background-position: <?php echo $feature_image_attachment; ?>;">
+<section id="feature" data-interchange="[<?php echo $feature_image_small_url; ?>, small], [<?php echo $feature_image_retina_url; ?>, retina], [<?php echo $feature_image_medium_url; ?>, medium], [<?php echo $feature_image_large_url; ?>, large], [<?php echo $feature_image_xlarge_url; ?>, xlarge], [<?php echo $feature_image_xxlarge_url; ?>, xxlarge], [<?php echo $feature_image_portrait_url; ?>, portrait], [<?php echo $feature_image_landscape_url; ?>, landscape]" style="background-position: <?php echo $feature_image_attachment; ?>;">
+	<div class="feature-container overlay">
 		<div class="row">
 			<div class="medium-10 medium-centered columns">
-				<h2>Category</h2>
-				<h1>Title</h1>
-				<p class="lead">The exerpt...</p>
-				
+				<h2><?php the_category( ', ' ); ?></h2>
+				<h1><a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h1>
+				<?php the_excerpt(); ?>
+
 <?php
-	if ( has_post_thumbnail() ) {
-		the_post_thumbnail();
-	}
+		endwhile;
+
+	// pagination here
+
+	wp_reset_postdata();
+
+	else :
 ?>
 
-			</div>
-		</div>
-<?php
-	if(get_field('jump_links_onoff')):
-		// check if the repeater field has rows of data
-		if( have_rows('jump_links') ):
+<section id="feature" data-interchange="[<?php echo $feature_image_small_url; ?>, small], [<?php echo $feature_image_medium_url; ?>, medium], [<?php echo $feature_image_large_url; ?>, large]" style="background-position: <?php echo $feature_image_attachment; ?>;">
+	<div class="feature-container overlay">
+		<div class="row">
+			<div class="medium-10 medium-centered columns">
 
-			//	Count the Jump Links and Chnage the Layout depending on how many there are
-			$jump_links = get_field('jump_links');
-			$jump_link_count = count($jump_links);
+				<p><?php _e( 'Sorry, no posts matched your criteria.' ); ?></p>
 
-			switch ($jump_link_count) {
-			    case 1:
-			        $jump_link_classes = 'medium-3 medium-centered columns text-center';
-			        break;
-			    case 2:
-			        $jump_link_classes = 'medium-6 columns text-center';
-			        break;
-				case 3:
-			        $jump_link_classes = 'medium-4 columns text-center';
-			        break;
-				default:
-					$jump_link_classes = 'medium-3 columns text-center';
-			}
-?>
-		<div id="jump-links" class="row hide-for-small-only">
 <?php
-			while ( have_rows('jump_links') ) : the_row();
-?>
-			<div class="<?php echo $jump_link_classes; ?>">
-				<a href="#<?php the_sub_field('section_id'); ?>">
-					<h3><?php the_sub_field('link_text'); ?></h3>
-					<img src="<?php echo get_template_directory_uri(); ?>/assets/images/ico-arrow_down.png" alt="Take me to: <?php the_sub_field('section_id'); ?>">
-				</a>
-			</div>
-<?php
-			endwhile;
-?>
-		</div>
-<?php
-		endif;
 	endif;
 ?>
-	</section>
 
-	<div id="news">
+			</div>
+		</div>
+	</div>
+</section>
 
-		<div id="inner-content" class="row">
+<section id="categories">
+	<div class="row">
+		<div class="medium-12 columns">
 
-		    <main id="main" class="large-8 medium-8 columns" role="main">
+<?php
+	$categories = get_categories( array(
+	    'orderby' => 'name',
+	    'parent'  => 0
+	) );
 
-			    <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+	echo '			<h3 class="text-center">';
 
-					<!-- To see additional archive styles, visit the /parts directory -->
-					<?php get_template_part( 'parts/loop', 'archive' ); ?>
+	$category_list = array();
+	foreach ( $categories as $category ) {
+		$category_list[] = '<a href="' . get_category_link( $category->term_id ) . '">' . esc_html( $category->name ) . '</a> ';
+	}
 
-				<?php endwhile; ?>
+	echo implode( ', ', $category_list );
 
-					<?php joints_page_navi(); ?>
+	echo '</h3>'
+?>
 
-				<?php else : ?>
+		</div>
+	</div>
+</section>
 
-					<?php get_template_part( 'parts/content', 'missing' ); ?>
+<div id="news" class="breakout-box-section">
 
-				<?php endif; ?>
+	<div class="row">
+		<div class="medium-3 columns end title">
+			<h3>More Posts</h3>
+		</div>
+	</div>
 
-		    </main> <!-- end #main -->
+<?php
+	// Setup the Query for the Feature
+	$news_args = array( 'posts_per_page' => 10, 'offset' => 1 );
+	$news_query = new WP_Query( $news_args );
 
-		    <?php get_sidebar(); ?>
+	if ( $news_query->have_posts() ) :
 
-		</div> <!-- end #inner-content -->
+	// pagination here
 
-	</div> <!-- end #content -->
+		while ( $news_query->have_posts() ) : $news_query->the_post();
+
+			//	Setup Feature Image Backgrounds
+			$breakout_box_attachment = 'center';
+			if ( has_post_thumbnail() ):
+				$breakout_box_bg_image = get_post_thumbnail_id($post->ID);
+				$breakout_box_small_url = wp_get_attachment_image_src( $breakout_box_bg_image, 'feature_small' )[0];
+				$breakout_box_retina_url = wp_get_attachment_image_src( $breakout_box_bg_image, 'feature_retina' )[0];
+				$breakout_box_medium_url = wp_get_attachment_image_src( $breakout_box_bg_image, 'feature_medium' )[0];
+				$breakout_box_large_url = wp_get_attachment_image_src( $breakout_box_bg_image, 'feature_large' )[0];
+				$breakout_box_xlarge_url = wp_get_attachment_image_src( $breakout_box_bg_image, 'feature_xlarge' )[0];
+				$breakout_box_xxlarge_url = wp_get_attachment_image_src( $breakout_box_bg_image, 'feature_xxlarge' )[0];
+				$breakout_box_portrait_url = wp_get_attachment_image_src( $breakout_box_bg_image, 'feature_portrait' )[0];
+				$breakout_box_landscape_url = wp_get_attachment_image_src( $breakout_box_bg_image, 'feature_landscape' )[0];
+			else:
+				$breakout_box_bg_image = get_field('default_background_image', 'option');
+				if( !empty($breakout_box_bg_image) ):
+					$breakout_box_small_url = $breakout_box_bg_image['sizes']['feature_small'];
+					$breakout_box_retina_url = $breakout_box_bg_image['sizes']['feature_retina'];
+					$breakout_box_medium_url = $breakout_box_bg_image['sizes']['feature_medium'];
+					$breakout_box_large_url = $breakout_box_bg_image['sizes']['feature_large'];
+					$breakout_box_xlarge_url = $breakout_box_bg_image['sizes']['feature_xlarge'];
+					$breakout_box_xxlarge_url = $breakout_box_bg_image['sizes']['feature_xxlarge'];
+					$breakout_box_portrait_url = $breakout_box_bg_image['sizes']['feature_portrait'];
+					$breakout_box_landscape_url = $breakout_box_bg_image['sizes']['feature_landscape'];
+				endif;
+			endif;
+?>
+
+	<div id="<?php echo $portfolio_item_ID; ?>" class="row">
+		<div class="medium-12 columns">
+			<div class="breakout-box-item" data-interchange="[<?php echo $breakout_box_small_url; ?>, small],[<?php echo $breakout_box_retina_url; ?>, retina],[<?php echo $breakout_box_medium_url; ?>, medium],[<?php echo $breakout_box_large_url; ?>, large],[<?php echo $breakout_box_xlarge_url; ?>, xlarge],[<?php echo $breakout_box_xxlarge_url; ?>, xxlarge],[<?php echo $breakout_box_portrait_url; ?>, portrait],[<?php echo $breakout_box_landscape_url; ?>, landscape]" style="background-position: <?php echo $feature_image_attachment; ?>;">
+				<div class="breakout-box-container">
+					<div class="portolio-text">
+						<div id="breakout-box-name" class="h1"><?php the_title(); ?></div>
+						<p id="breakout-box-type" class="lead"><?php the_category( ', ' ); ?></p>
+					</div>
+					<a href="<?php the_permalink(); ?>" class="button breakout-box-link">View Post</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+<?php
+		endwhile;
+
+	// pagination here
+
+	wp_reset_postdata();
+
+	else :
+?>
+
+	<p><?php _e( 'Sorry, no posts matched your criteria.' ); ?></p>
+
+<?php
+	endif;
+?>
+
+</div>
 
 <?php get_footer(); ?>

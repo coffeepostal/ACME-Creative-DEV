@@ -50,3 +50,6 @@ require_once(get_template_directory().'/assets/translation/translation.php');
 
 // Advanced Custom Fields
 require_once(get_template_directory().'/assets/functions/acf.php');
+
+// Misc. Functions
+require_once(get_template_directory().'/assets/functions/misc.php');

@@ -4484,13 +4484,27 @@ Stylesheet: Main Stylesheet
 
 *************************************************/
 /*********************
+VARIABLES
+*********************/
+/*********************
 GENERAL STYLES
 *********************/
+.header-font {
+  font-family: "Arquitecta", sans-serif;
+  font-weight: 900;
+  text-transform: uppercase; }
+
 /*********************
 LINK STYLES
 *********************/
 a:link, a:visited:link {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0.3); }
+
+a.excerpt-read-more, a:visited.excerpt-read-more {
+  font-family: "Arquitecta", sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 80%; }
 
 /*********************************
 H1, H2, H3, H4, H5 P, .stat STYLES
@@ -4717,17 +4731,31 @@ section#feature {
   background-color: #d01c1f;
   color: #fefefe; }
   @media screen and (min-width: 64em) {
-    section#feature {
+    section#feature div.feature-container {
       padding-top: 18.75rem;
       padding-bottom: 18.75rem; } }
   @media screen and (min-width: 40em) and (max-width: 63.9375em) {
-    section#feature {
+    section#feature div.feature-container {
       padding-top: 9.375rem;
       padding-bottom: 9.375rem; } }
   @media screen and (max-width: 39.9375em) {
-    section#feature {
+    section#feature div.feature-container {
       padding-top: 11.25rem;
       padding-bottom: 8.75rem; } }
+  section#feature div.feature-container.overlay {
+    background-color: rgba(56, 53, 52, 0.6); }
+  @media screen and (min-width: 64em) {
+    section#feature div.feature-container.single {
+      padding-top: 31.25rem;
+      padding-bottom: 6.25rem; } }
+  @media screen and (min-width: 40em) and (max-width: 63.9375em) {
+    section#feature div.feature-container.single {
+      padding-top: 15rem;
+      padding-bottom: 3.75rem; } }
+  @media screen and (max-width: 39.9375em) {
+    section#feature div.feature-container.single {
+      padding-top: 16rem;
+      padding-bottom: 4rem; } }
   @media screen and (min-width: 64em) {
     section#feature p {
       font-size: 2.25rem;
@@ -4905,7 +4933,6 @@ section#testimonials {
 div#portfolio {
   padding: 2.625rem 0; }
   div#portfolio div.portfolio-section div.portfolio-item {
-    background-image: url("/wp-content/uploads/2016/10/acme-feature-square-ryonet2.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center; }
@@ -5062,6 +5089,16 @@ div.portfolio-light-gray {
 div.portfolio-red {
   background-color: #d01c1f; }
 
+section#categories {
+  margin-top: 1.125rem;
+  margin-bottom: 1.125rem; }
+  section#categories h1, section#categories h2, section#categories h3, section#categories h4, section#categories h5, section#categories h6, section#categories p {
+    color: #6c6664; }
+  section#categories a {
+    color: #6c6664; }
+    section#categories a:hover {
+      color: #817a78; }
+
 section#contact-us {
   padding-top: 15.625rem;
   padding-bottom: 9.375rem; }
@@ -5079,6 +5116,50 @@ section#generic-page {
       padding-top: 9.375rem; } }
   section#generic-page div#map {
     padding-top: 1rem; }
+
+div.breakout-box-section div.breakout-box-item {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center; }
+  div.breakout-box-section div.breakout-box-item div.breakout-box-container {
+    background-color: rgba(56, 53, 52, 0.6);
+    margin-bottom: 2.8125rem;
+    padding: 12.5rem 6.25rem;
+    -webkit-transition: background-color 0.5s;
+    transition: background-color 0.5s; }
+    div.breakout-box-section div.breakout-box-item div.breakout-box-container:hover {
+      background-color: rgba(208, 28, 31, 0.6); }
+      div.breakout-box-section div.breakout-box-item div.breakout-box-container:hover div.portolio-text {
+        -webkit-transform: translate(0, 0);
+                transform: translate(0, 0); }
+      div.breakout-box-section div.breakout-box-item div.breakout-box-container:hover a.button.breakout-box-link {
+        opacity: 1; }
+    div.breakout-box-section div.breakout-box-item div.breakout-box-container div.portolio-text {
+      -webkit-transform: translate(0, 1.875rem);
+              transform: translate(0, 1.875rem);
+      -webkit-transition: -webkit-transform 0.5s;
+      transition: -webkit-transform 0.5s;
+      transition: transform 0.5s;
+      transition: transform 0.5s, -webkit-transform 0.5s; }
+      div.breakout-box-section div.breakout-box-item div.breakout-box-container div.portolio-text div#breakout-box-name {
+        font-family: "Arquitecta", sans-serif;
+        font-weight: 900;
+        text-transform: uppercase;
+        font-size: 3rem;
+        line-height: 0.9; }
+        @media screen and (max-width: 39.9375em) {
+          div.breakout-box-section div.breakout-box-item div.breakout-box-container div.portolio-text div#breakout-box-name {
+            font-size: 2rem; } }
+      div.breakout-box-section div.breakout-box-item div.breakout-box-container div.portolio-text p#breakout-box-type {
+        font-size: 2.25rem; }
+        @media screen and (max-width: 39.9375em) {
+          div.breakout-box-section div.breakout-box-item div.breakout-box-container div.portolio-text p#breakout-box-type {
+            font-size: 1.5rem; } }
+    div.breakout-box-section div.breakout-box-item div.breakout-box-container a.button.breakout-box-link {
+      text-transform: uppercase;
+      opacity: 0;
+      -webkit-transition: opacity 0.5s;
+      transition: opacity 0.5s; }
 
 /*********************
 POSTS & CONTENT STYLES

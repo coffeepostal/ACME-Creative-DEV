@@ -17,16 +17,20 @@
 ?>
 
 	<section id="feature" data-interchange="[<?php echo $feature_image_small_url; ?>, small], [<?php echo $feature_image_medium_url; ?>, medium], [<?php echo $feature_image_large_url; ?>, large]" style="background-position: <?php echo $feature_image_attachment; ?>;">
-		<div class="row">
-			<div class="medium-10 medium-centered columns">
+		<div class="feature-container">
+			<div class="row">
+				<div class="medium-10 medium-centered columns">
+
 <?php
 	if($feature_content):
 		echo '				' . $feature_content;
 	endif;
 ?>
+
 				&nbsp;
+				</div>
 			</div>
-		</div>
+
 <?php
 	if(get_field('jump_links_onoff')):
 		// check if the repeater field has rows of data
@@ -50,22 +54,30 @@
 					$jump_link_classes = 'medium-3 columns text-center';
 			}
 ?>
-		<div id="jump-links" class="row hide-for-small-only">
+
+			<div id="jump-links" class="row hide-for-small-only">
+
 <?php
 			while ( have_rows('jump_links') ) : the_row();
 ?>
-			<div class="<?php echo $jump_link_classes; ?>">
-				<a href="#<?php the_sub_field('section_id'); ?>">
-					<h3><?php the_sub_field('link_text'); ?></h3>
-					<img src="<?php echo get_template_directory_uri(); ?>/assets/images/ico-arrow_down.png" alt="Take me to: <?php the_sub_field('section_id'); ?>">
-				</a>
-			</div>
+
+				<div class="<?php echo $jump_link_classes; ?>">
+					<a href="#<?php the_sub_field('section_id'); ?>">
+						<h3><?php the_sub_field('link_text'); ?></h3>
+						<img src="<?php echo get_template_directory_uri(); ?>/assets/images/ico-arrow_down.png" alt="Take me to: <?php the_sub_field('section_id'); ?>">
+					</a>
+				</div>
+
 <?php
 			endwhile;
 ?>
-		</div>
+
+			</div>
+			
 <?php
 		endif;
 	endif;
 ?>
+
+		</div>
 	</section>

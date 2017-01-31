@@ -671,6 +671,12 @@
 		"oAP": "\/assets\/functions\/menu.php",
 		"oF": 0
 		},
+	"\/assets\/functions\/misc.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/functions\/misc.php",
+		"oF": 0
+		},
 	"\/assets\/functions\/page-navi.php": {
 		"ft": 8192,
 		"oA": 2,
