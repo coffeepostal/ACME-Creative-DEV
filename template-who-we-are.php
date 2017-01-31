@@ -126,7 +126,7 @@ Template Name: Who We Are
 	<section id="gallery-cafe">
 		<div class="row">
 			<div class="medium-12 columns title">
-				<h3>Gallery and Café</h3>
+				<h3>Coffee Bar &amp; Gallery</h3>
 			</div>
 		</div>
 		<div class="row">
