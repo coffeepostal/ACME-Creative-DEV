@@ -83,19 +83,6 @@
 
 </div>
 
-<?php get_footer(); ?>
-
-
-
-
-
-
-
-
-
-
-<?php get_header(); ?>
-
 <div id="content">
 
 	<div id="inner-content" class="row">
@@ -105,6 +92,8 @@
 		    <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
 		    	<?php get_template_part( 'parts/loop', 'single' ); ?>
+
+				<?php get_template_part( 'parts/loop', 'content-blocks' ); ?>
 
 		    <?php endwhile; else : ?>
 
