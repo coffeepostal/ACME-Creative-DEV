@@ -19,11 +19,11 @@ if( function_exists('acf_add_options_page') ) {
 	));
 
 	acf_add_options_sub_page(array(
-		'page_title' 	=> 'Homepage Settings',
-		'menu_title'	=> 'Homepage Settings',
+		'page_title' 	=> 'General Settings',
+		'menu_title'	=> 'General Settings',
 		'parent_slug'	=> 'acf-settings',
 	));
-
+	
 	acf_add_options_sub_page(array(
 		'page_title' 	=> 'Navigation Settings',
 		'menu_title'	=> 'Navigation Settings',

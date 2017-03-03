@@ -5,8 +5,18 @@ Stylesheet: Main Stylesheet
 *************************************************/
 
 /*********************
+VARIABLES
+*********************/
+$breakout-box-transition-speed: 0.5s;
+
+/*********************
 GENERAL STYLES
 *********************/
+.header-font {
+	font-family: $header-font-family;
+	font-weight: $header-font-weight;
+	text-transform: uppercase;
+}
 
 /*********************
 LINK STYLES
@@ -17,6 +27,12 @@ a, a:visited {
 	&:link {
 		//Highlight links on iOS, Similar to :hover for mobile devices.
 		-webkit-tap-highlight-color : rgba( 0, 0, 0, 0.3 );
+	}
+	&.excerpt-read-more {
+		font-family: $header-font-family;
+		font-weight: $header-font-weight;
+		text-transform: uppercase;
+		font-size: 80%;
 	}
 }
 
@@ -332,18 +348,39 @@ section#feature {
 	background-repeat: no-repeat;
 	background-color: $primary-color;
 	color: $white;
-	@media screen and (min-width: 64em) {
-		padding-top: rem-calc(300);
-		padding-bottom: rem-calc(300);
+
+	div.feature-container {
+		@media screen and (min-width: 64em) {
+			padding-top: rem-calc(300);
+			padding-bottom: rem-calc(300);
+		}
+		@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+			padding-top: rem-calc(150);
+			padding-bottom: rem-calc(150);
+		}
+		@media screen and (max-width: 39.9375em) {
+			padding-top: rem-calc(180);
+			padding-bottom: rem-calc(140);
+		}
+		&.overlay {
+			background-color: rgba($secondary-color, 0.6);
+		}
+		&.single {
+			@media screen and (min-width: 64em) {
+				padding-top: rem-calc(500);
+				padding-bottom: rem-calc(100);
+			}
+			@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+				padding-top: rem-calc(240);
+				padding-bottom: rem-calc(60);
+			}
+			@media screen and (max-width: 39.9375em) {
+				padding-top: rem-calc(256);
+				padding-bottom: rem-calc(64);
+			}
+		}
 	}
-	@media screen and (min-width: 40em) and (max-width: 63.9375em) {
-		padding-top: rem-calc(150);
-		padding-bottom: rem-calc(150);
-	}
-	@media screen and (max-width: 39.9375em) {
-		padding-top: rem-calc(180);
-		padding-bottom: rem-calc(140);
-	}
+
 	p {
 		@media screen and (min-width: 64em) {
 			font-size: rem-calc(36);
@@ -561,7 +598,7 @@ div#portfolio {
 	div.portfolio-section {
 
 		div.portfolio-item {
-			background-image: url('/wp-content/uploads/2016/10/acme-feature-square-ryonet2.jpg');
+			//background-image: url('/wp-content/uploads/2016/10/acme-feature-square-ryonet2.jpg');
 			background-size: cover;
 			background-repeat: no-repeat;
 			background-position: center center;
@@ -765,6 +802,26 @@ div.portfolio-red {
 	background-color: $primary-color;
 }
 
+//	BLOG/NEWS
+section#categories {
+	margin-top: rem-calc(18);
+	margin-bottom: rem-calc(18);
+
+	h1, h2, h3, h4, h5, h6, p {
+		color: scale-color($secondary-color, $lightness: 25%);
+	}
+
+	a {
+		color: scale-color($secondary-color, $lightness: 25%);
+		&:hover {
+			color: scale-color($secondary-color, $lightness: 35%);
+		}
+	}
+}
+section#news {
+
+}
+
 //	CONTACT
 section#contact-us {
 	padding-top: rem-calc(250);
@@ -786,6 +843,61 @@ section#generic-page {
 	}
 	div#map {
 		padding-top: rem-calc(16);
+	}
+}
+
+div.breakout-box-section {
+
+	div.breakout-box-item {
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center center;
+
+		div.breakout-box-container {
+			background-color: rgba($secondary-color, 0.6);
+			margin-bottom: rem-calc(45);
+			padding: rem-calc(200 100);
+			transition: background-color $breakout-box-transition-speed;
+
+			&:hover {
+				background-color: rgba($primary-color, 0.6);
+				div.portolio-text {
+					transform: translate(0, 0);
+				}
+				a.button.breakout-box-link {
+					opacity: 1;
+				}
+			}
+			div.portolio-text {
+				transform: translate(0, rem-calc(30));
+				transition: transform $breakout-box-transition-speed;
+
+				div#breakout-box-name {
+					font-family: $header-font-family;
+					font-weight: $header-font-weight;
+					text-transform: uppercase;
+					font-size: rem-calc(map-get(map-get($header-sizes, medium), h1));
+					line-height: 0.9;
+
+					@media screen and (max-width: 39.9375em) {
+						font-size: rem-calc(map-get(map-get($header-sizes, small), h1));
+					}
+				}
+
+				p#breakout-box-type {
+					font-size: rem-calc(36);
+
+					@media screen and (max-width: 39.9375em) {
+						font-size: rem-calc(24);
+					}
+				}
+			}
+			a.button.breakout-box-link {
+				text-transform: uppercase;
+				opacity: 0;
+				transition: opacity $breakout-box-transition-speed;
+			}
+		}
 	}
 }
 

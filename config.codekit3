@@ -21,18 +21,6 @@
 		"oAP": "\/404.php",
 		"oF": 0
 		},
-	"\/archive-custom_type.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/archive-custom_type.php",
-		"oF": 0
-		},
-	"\/archive.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/archive.php",
-		"oF": 0
-		},
 	"\/assets\/css\/login.css": {
 		"aP": 0,
 		"bl": 0,
@@ -669,6 +657,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/functions\/menu.php",
+		"oF": 0
+		},
+	"\/assets\/functions\/misc.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/functions\/misc.php",
 		"oF": 0
 		},
 	"\/assets\/functions\/page-navi.php": {
@@ -7220,7 +7214,7 @@
 		},
 	"\/index.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/index.php",
 		"oF": 0
 		},
@@ -7240,97 +7234,97 @@
 		},
 	"\/parts\/block-feature.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/parts\/block-feature.php",
 		"oF": 0
 		},
 	"\/parts\/block-photoswipe-insert.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/parts\/block-photoswipe-insert.php",
 		"oF": 0
 		},
 	"\/parts\/block-social.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/parts\/block-social.php",
 		"oF": 0
 		},
 	"\/parts\/content-byline.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/parts\/content-byline.php",
 		"oF": 0
 		},
 	"\/parts\/content-missing.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/parts\/content-missing.php",
 		"oF": 0
 		},
 	"\/parts\/content-offcanvas.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/parts\/content-offcanvas.php",
 		"oF": 0
 		},
 	"\/parts\/loop-archive-grid.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/parts\/loop-archive-grid.php",
 		"oF": 0
 		},
 	"\/parts\/loop-archive.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/parts\/loop-archive.php",
 		"oF": 0
 		},
 	"\/parts\/loop-homepage.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/parts\/loop-homepage.php",
 		"oF": 0
 		},
 	"\/parts\/loop-page.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/parts\/loop-page.php",
 		"oF": 0
 		},
 	"\/parts\/loop-single.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/parts\/loop-single.php",
 		"oF": 0
 		},
 	"\/parts\/nav-acme.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/parts\/nav-acme.php",
 		"oF": 0
 		},
 	"\/parts\/nav-offcanvas-topbar.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/parts\/nav-offcanvas-topbar.php",
 		"oF": 0
 		},
 	"\/parts\/nav-offcanvas.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/parts\/nav-offcanvas.php",
 		"oF": 0
 		},
 	"\/parts\/nav-title-bar.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/parts\/nav-title-bar.php",
 		"oF": 0
 		},
 	"\/parts\/nav-topbar.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/parts\/nav-topbar.php",
 		"oF": 0
 		},
@@ -7422,7 +7416,7 @@
 		},
 	"\/single.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/single.php",
 		"oF": 0
 		},
