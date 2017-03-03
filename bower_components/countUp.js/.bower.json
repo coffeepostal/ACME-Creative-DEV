@@ -12,15 +12,14 @@
     "index.html"
   ],
   "homepage": "https://github.com/inorganik/countUp.js",
-  "version": "1.7.1",
-  "_release": "1.7.1",
+  "version": "1.8.1",
+  "_release": "1.8.1",
   "_resolution": {
     "type": "version",
-    "tag": "1.7.1",
-    "commit": "0353d8f50d4738c09548c408f04b6239542b38ae"
+    "tag": "v1.8.1",
+    "commit": "309f745aa98e8e557726e2ee6ec70088d8cbcfd8"
   },
   "_source": "https://github.com/inorganik/countUp.js.git",
   "_target": "^1.7.1",
-  "_originalSource": "countUp.js",
-  "_direct": true
+  "_originalSource": "countUp.js"
 }
