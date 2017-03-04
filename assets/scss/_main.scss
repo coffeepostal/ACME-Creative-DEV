@@ -905,9 +905,8 @@ div.breakout-box-section {
 POSTS & CONTENT STYLES
 *********************/
 #content {
-	#inner-content {
-		padding: 1rem 0rem;
-	}
+	padding: rem-calc(50 0);
+
 }
 
 .single-title,
@@ -940,6 +939,13 @@ POSTS & CONTENT STYLES
 
 // Entry content
 .entry-content {
+
+	p {
+		&:first-child {
+			font-size: $lead-font-size;
+			line-height: $lead-lineheight;
+		}
+	}
 
 	img {
 		max-width: 100%;

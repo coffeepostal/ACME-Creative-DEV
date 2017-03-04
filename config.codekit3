@@ -21,6 +21,18 @@
 		"oAP": "\/404.php",
 		"oF": 0
 		},
+	"\/archive-custom_type.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/archive-custom_type.php",
+		"oF": 0
+		},
+	"\/archive.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/archive.php",
+		"oF": 0
+		},
 	"\/assets\/css\/login.css": {
 		"aP": 0,
 		"bl": 0,
@@ -7250,6 +7262,36 @@
 		"oAP": "\/parts\/block-social.php",
 		"oF": 0
 		},
+	"\/parts\/content-block-content_content_width.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/parts\/content-block-content_content_width.php",
+		"oF": 0
+		},
+	"\/parts\/content-block-content_split_content.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/parts\/content-block-content_split_content.php",
+		"oF": 0
+		},
+	"\/parts\/content-block-image_content_width.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/parts\/content-block-image_content_width.php",
+		"oF": 0
+		},
+	"\/parts\/content-block-image_page_width.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/parts\/content-block-image_page_width.php",
+		"oF": 0
+		},
+	"\/parts\/content-block-image_split_content_width.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/parts\/content-block-image_split_content_width.php",
+		"oF": 0
+		},
 	"\/parts\/content-byline.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -7278,6 +7320,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/parts\/loop-archive.php",
+		"oF": 0
+		},
+	"\/parts\/loop-content-blocks.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/parts\/loop-content-blocks.php",
 		"oF": 0
 		},
 	"\/parts\/loop-homepage.php": {

@@ -5164,8 +5164,8 @@ div.breakout-box-section div.breakout-box-item {
 /*********************
 POSTS & CONTENT STYLES
 *********************/
-#content #inner-content {
-  padding: 1rem 0rem; }
+#content {
+  padding: 3.125rem 0; }
 
 .page-title .vcard {
   border: 0px;
@@ -5173,6 +5173,10 @@ POSTS & CONTENT STYLES
 
 .byline {
   color: #999; }
+
+.entry-content p:first-child {
+  font-size: 150%;
+  line-height: 1; }
 
 .entry-content img {
   max-width: 100%;

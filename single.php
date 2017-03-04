@@ -73,39 +73,25 @@
 	</div>
 </section>
 
-<div id="news" class="breakout-box-section">
+<div id="content" role="main">
 
-	<div class="row">
-		<div class="medium-3 columns end title">
-			<h3>More Posts</h3>
-		</div>
-	</div>
+    <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
-</div>
+    	<?php get_template_part( 'parts/loop', 'single' ); ?>
 
-<div id="content">
+		<?php
+			if( have_rows('content_blocks') ):
+				while ( have_rows('content_blocks') ) : the_row();
+					get_template_part( 'parts/loop', 'content-blocks' );
+				endwhile;
+			endif;
+		?>
 
-	<div id="inner-content" class="row">
+    <?php endwhile; else : ?>
 
-		<main id="main" class="large-8 medium-8 columns" role="main">
+   		<?php get_template_part( 'parts/content', 'missing' ); ?>
 
-		    <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-
-		    	<?php get_template_part( 'parts/loop', 'single' ); ?>
-
-				<?php get_template_part( 'parts/loop', 'content-blocks' ); ?>
-
-		    <?php endwhile; else : ?>
-
-		   		<?php get_template_part( 'parts/content', 'missing' ); ?>
-
-		    <?php endif; ?>
-
-		</main> <!-- end #main -->
-
-		<?php get_sidebar(); ?>
-
-	</div> <!-- end #inner-content -->
+    <?php endif; ?>
 
 </div> <!-- end #content -->
 
