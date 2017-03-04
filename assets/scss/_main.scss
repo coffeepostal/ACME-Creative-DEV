@@ -907,6 +907,29 @@ POSTS & CONTENT STYLES
 #content {
 	padding: rem-calc(50 0);
 
+	div.content-blocks {
+		div.content_content_width {
+
+		}
+		div.content_split_content {
+
+		}
+		div.image_content_width {
+
+		}
+		div.image_page_width {
+
+		}
+		div.image_split_content_width {
+
+		}
+		p.caption {
+			padding: rem-calc(8 0);
+			margin-bottom: rem-calc(8);
+			border-bottom: solid rem-calc(1) map-get($foundation-palette, acme-off-white);
+			font-style: italic;
+		}
+	}
 }
 
 .single-title,

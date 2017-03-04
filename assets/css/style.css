@@ -5166,6 +5166,11 @@ POSTS & CONTENT STYLES
 *********************/
 #content {
   padding: 3.125rem 0; }
+  #content div.content-blocks p.caption {
+    padding: 0.5rem 0;
+    margin-bottom: 0.5rem;
+    border-bottom: solid 0.0625rem #fbfaf5;
+    font-style: italic; }
 
 .page-title .vcard {
   border: 0px;

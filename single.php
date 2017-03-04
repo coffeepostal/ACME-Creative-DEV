@@ -81,9 +81,13 @@
 
 		<?php
 			if( have_rows('content_blocks') ):
+				echo '<div class="content-blocks">';
+				echo "\n";
 				while ( have_rows('content_blocks') ) : the_row();
 					get_template_part( 'parts/loop', 'content-blocks' );
 				endwhile;
+				echo '</div>';
+				echo "\n";
 			endif;
 		?>
 
