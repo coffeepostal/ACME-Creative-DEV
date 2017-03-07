@@ -5166,6 +5166,8 @@ POSTS & CONTENT STYLES
 *********************/
 #content {
   padding: 3.125rem 0; }
+  #content div.content-blocks div.content-block {
+    padding: 2.25rem 0; }
   #content div.content-blocks p.caption {
     padding: 0.5rem 0;
     margin-bottom: 0.5rem;

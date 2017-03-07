@@ -1,6 +1,6 @@
 <!-- START: content-block-content_content_width.php -->
 
-<div class="content_content_width">
+<div class="content-block content_content_width">
     <div class="row">
         <div class="medium-10 large-8 medium-centered columns">
 

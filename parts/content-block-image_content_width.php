@@ -5,7 +5,7 @@
     $caption = get_sub_field('caption');
 ?>
 
-<div id="image_content_width">
+<div id="content-block image_content_width">
     <div class="row">
         <div class="medium-12 columns">
             <img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>">

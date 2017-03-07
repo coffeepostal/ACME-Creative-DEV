@@ -7,7 +7,7 @@
     $caption_right = get_sub_field('caption_right');
 ?>
 
-<div id="image_split_content_width">
+<div id="content-block image_split_content_width">
     <div class="row">
         <div id="left" class="medium-6 columns">
             <img src="<?php echo $image_left['url']; ?>" alt="<?php echo $image_left['alt']; ?>">
