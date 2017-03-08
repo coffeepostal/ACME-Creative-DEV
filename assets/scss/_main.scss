@@ -369,14 +369,23 @@ section#feature {
 			@media screen and (min-width: 64em) {
 				padding-top: rem-calc(500);
 				padding-bottom: rem-calc(100);
+				h1 {
+					font-size: rem-calc(72);
+				}
 			}
 			@media screen and (min-width: 40em) and (max-width: 63.9375em) {
 				padding-top: rem-calc(240);
 				padding-bottom: rem-calc(60);
+				h1 {
+					font-size: rem-calc(54);
+				}
 			}
 			@media screen and (max-width: 39.9375em) {
 				padding-top: rem-calc(256);
 				padding-bottom: rem-calc(64);
+				h1 {
+					font-size: rem-calc(36);
+				}
 			}
 		}
 	}

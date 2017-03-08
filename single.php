@@ -54,9 +54,9 @@
 <section id="feature" data-interchange="[<?php echo $feature_image_small_url; ?>, small], [<?php echo $feature_image_retina_url; ?>, retina], [<?php echo $feature_image_medium_url; ?>, medium], [<?php echo $feature_image_large_url; ?>, large], [<?php echo $feature_image_xlarge_url; ?>, xlarge], [<?php echo $feature_image_xxlarge_url; ?>, xxlarge], [<?php echo $feature_image_portrait_url; ?>, portrait], [<?php echo $feature_image_landscape_url; ?>, landscape]" style="background-position: <?php echo $feature_image_attachment; ?>;">
 	<div class="feature-container single">
 		<div class="row">
-			<div class="medium-10 medium-centered columns">
+			<div class="medium-10 large-8 medium-centered columns">
 				<h2><?php the_category( ', ' ); ?></h2>
-				<h1><a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h1>
+				<h1><?php the_title(); ?></h1>
 
 <?php
 		endwhile;
