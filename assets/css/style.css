@@ -5166,13 +5166,23 @@ POSTS & CONTENT STYLES
 *********************/
 #content {
   padding: 3.125rem 0; }
-  #content div.content-blocks div.content-block {
-    padding: 2.25rem 0; }
-  #content div.content-blocks p.caption {
-    padding: 0.5rem 0;
-    margin-bottom: 0.5rem;
-    border-bottom: solid 0.0625rem #fbfaf5;
-    font-style: italic; }
+  #content div.content-block {
+    padding: 2rem 0; }
+    @media screen and (max-width: 39.9375em) {
+      #content div.content-block.content_split_content div#left {
+        padding-bottom: 1rem; }
+      #content div.content-block.content_split_content div#right {
+        padding-top: 1rem; } }
+    @media screen and (max-width: 39.9375em) {
+      #content div.content-block.image_split_content_width div#left {
+        padding-bottom: 1rem; }
+      #content div.content-block.image_split_content_width div#right {
+        padding-top: 1rem; } }
+    #content div.content-block p.caption {
+      padding: 0.5rem 0;
+      margin-bottom: 0.5rem;
+      border-bottom: solid 0.0625rem #fbfaf5;
+      font-style: italic; }
 
 .page-title .vcard {
   border: 0px;

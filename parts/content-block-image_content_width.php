@@ -5,7 +5,7 @@
     $caption = get_sub_field('caption');
 ?>
 
-<div id="content-block image_content_width">
+<div class="content-block image_content_width">
     <div class="row">
         <div class="medium-12 columns">
             <img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>">
@@ -18,7 +18,7 @@
 
     <div class="row">
         <div class="medium-12 columns">
-            <p class="caption"><?php echo $caption; ?><</p>
+            <p class="caption"><?php echo $caption; ?></p>
         </div>
     </div>
 

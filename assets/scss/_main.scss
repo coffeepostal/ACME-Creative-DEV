@@ -908,22 +908,37 @@ POSTS & CONTENT STYLES
 	padding: rem-calc(50 0);
 
 	div.content-blocks {
-		div.content-block {
-			padding: rem-calc(36 0);
-			&.content_content_width {
 
+	}
+	div.content-block {
+		padding: rem-calc(32 0);
+		&.content_content_width {
+
+		}
+		&.content_split_content {
+			@media screen and (max-width: 39.9375em) {
+				div#left {
+					padding-bottom: rem-calc(16);
+				}
+				div#right {
+					padding-top: rem-calc(16);
+				}
 			}
-			&.content_split_content {
+		}
+		&.image_content_width {
 
-			}
-			&.image_content_width {
+		}
+		&.image_page_width {
 
-			}
-			&.image_page_width {
-
-			}
-			&.image_split_content_width {
-
+		}
+		&.image_split_content_width {
+			@media screen and (max-width: 39.9375em) {
+				div#left {
+					padding-bottom: rem-calc(16);
+				}
+				div#right {
+					padding-top: rem-calc(16);
+				}
 			}
 		}
 		p.caption {
