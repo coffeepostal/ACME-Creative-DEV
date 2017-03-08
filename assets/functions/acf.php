@@ -12,10 +12,11 @@
 if( function_exists('acf_add_options_page') ) {
 
 	acf_add_options_page(array(
-		'page_title' 	=> 'ACF Settings',
-		'menu_title'	=> 'ACF Settings',
+		'position'		=> 2,
+		'page_title' 	=> 'Site Settings',
+		'menu_title'	=> 'Site Settings',
 		'menu_slug' 	=> 'acf-settings',
-        'icon_url'      => 'dashicons-carrot'
+        'icon_url'      => 'dashicons-admin-settings'
 	));
 
 	acf_add_options_sub_page(array(
@@ -23,7 +24,7 @@ if( function_exists('acf_add_options_page') ) {
 		'menu_title'	=> 'General Settings',
 		'parent_slug'	=> 'acf-settings',
 	));
-	
+
 	acf_add_options_sub_page(array(
 		'page_title' 	=> 'Navigation Settings',
 		'menu_title'	=> 'Navigation Settings',
