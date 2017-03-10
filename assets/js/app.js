@@ -1,9 +1,13 @@
+/*jshint devel:true */
+/*jslint eqeq: true*/
+/*jshint unused:false*/
+
 // Navigation Controls
   var top = jQuery(window).scrollTop();
   var left = jQuery(window).scrollLeft();
 
   function navOpen() {
-      jQuery('body').css('overflow', 'hidden');
+    //   jQuery('body').css('overflow', 'hidden');
       jQuery(window).scroll(function(){
           jQuery(this).scrollTop(top).scrollLeft(left);
       });
@@ -24,7 +28,7 @@
       clickState = 1;
   }
   function navClose() {
-      jQuery('body').css('overflow', 'auto');
+    //   jQuery('body').css('overflow', 'auto');
       jQuery(window).unbind('scroll');
       jQuery('span#navText').show("slide", { direction: "right" }, 250);
       jQuery('div#navClick').toggleClass('open');

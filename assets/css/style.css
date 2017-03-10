@@ -2035,7 +2035,7 @@ h6 {
   h4 small,
   h5 small,
   h6 small {
-    color: #cacaca;
+    color: #fefefe;
     line-height: 0; }
 
 h1 {
@@ -5100,6 +5100,8 @@ section#categories {
   margin-bottom: 1.125rem; }
   section#categories h1, section#categories h2, section#categories h3, section#categories h4, section#categories h5, section#categories h6, section#categories p {
     color: #6c6664; }
+    section#categories h1 span.active, section#categories h2 span.active, section#categories h3 span.active, section#categories h4 span.active, section#categories h5 span.active, section#categories h6 span.active, section#categories p span.active {
+      color: #9e9997; }
   section#categories a {
     color: #6c6664; }
     section#categories a:hover {

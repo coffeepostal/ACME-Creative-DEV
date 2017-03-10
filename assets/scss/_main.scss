@@ -818,6 +818,9 @@ section#categories {
 
 	h1, h2, h3, h4, h5, h6, p {
 		color: scale-color($secondary-color, $lightness: 25%);
+		span.active {
+			color: scale-color($secondary-color, $lightness: 50%);
+		}
 	}
 
 	a {

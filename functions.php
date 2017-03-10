@@ -48,5 +48,8 @@ require_once(get_template_directory().'/assets/translation/translation.php');
 // ACME ADDED SO BACK OFF BITCH!
 ////////////////////////////////
 
+// Misc. settings
+require_once(get_template_directory().'/assets/functions/misc.php');
+
 // Advanced Custom Fields
 require_once(get_template_directory().'/assets/functions/acf.php');
