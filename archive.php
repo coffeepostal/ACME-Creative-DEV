@@ -42,6 +42,7 @@
 	) );
 
 	echo '			<h3 class="text-center">';
+	echo '<a href="' . km_get_blog_posts_page_url() . '">All</a> | ';
 
 	$category_list = array();
 	foreach ( $categories as $category ) {
@@ -54,7 +55,7 @@
 		endif;
 	}
 
-	echo implode( ', ', $category_list );
+	echo implode( '| ', $category_list );
 
 	echo '</h3>'
 ?>

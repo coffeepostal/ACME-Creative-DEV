@@ -701,6 +701,16 @@
 		"oAP": "\/assets\/functions\/theme-support.php",
 		"oF": 0
 		},
+	"\/assets\/images\/acme-admin-icon.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/images\/acme-admin-icon.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/assets\/images\/apple-icon-touch.png": {
 		"ft": 32768,
 		"iS": 19220,

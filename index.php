@@ -102,7 +102,7 @@
 		$category_list[] = '<a href="' . get_category_link( $category->term_id ) . '">' . esc_html( $category->name ) . '</a> ';
 	}
 
-	echo implode( ', ', $category_list );
+	echo implode( '| ', $category_list );
 
 	echo '</h3>'
 ?>
