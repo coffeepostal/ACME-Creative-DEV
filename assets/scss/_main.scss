@@ -111,6 +111,7 @@ header#site-header {
 		span#navText {
 			float: right;
 			color: $white;
+			text-shadow: rem-calc(2 2 5) rgba($black, 0.5);
 			font-size: rem-calc(20);
 			line-height: rem-calc(20);
 			margin-top: rem-calc(28);
@@ -348,6 +349,7 @@ section#feature {
 	background-repeat: no-repeat;
 	background-color: $primary-color;
 	color: $white;
+	text-shadow: rem-calc(2 2 5) rgba($black, 0.5);
 
 	div.feature-container {
 		@media screen and (min-width: 64em) {
@@ -542,8 +544,8 @@ section#info {
 section#story {
 	padding-top: rem-calc(130);
 	p {
-		font-size: rem-calc(24);
-		line-height: rem-calc(28);
+		font-size: $lead-font-size;
+		line-height: $lead-lineheight;
 	}
 }
 section#crew {

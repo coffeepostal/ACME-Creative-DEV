@@ -2161,7 +2161,7 @@ kbd {
 
 .lead {
   font-size: 150%;
-  line-height: 1; }
+  line-height: 1.75rem; }
 
 .stat {
   font-size: 3rem;
@@ -4557,6 +4557,7 @@ header#site-header {
     header#site-header div#navControl span#navText {
       float: right;
       color: #fefefe;
+      text-shadow: 0.125rem 0.125rem 0.3125rem rgba(10, 10, 10, 0.5);
       font-size: 1.25rem;
       line-height: 1.25rem;
       margin-top: 1.75rem;
@@ -4729,7 +4730,8 @@ section#feature {
   background-size: cover;
   background-repeat: no-repeat;
   background-color: #d01c1f;
-  color: #fefefe; }
+  color: #fefefe;
+  text-shadow: 0.125rem 0.125rem 0.3125rem rgba(10, 10, 10, 0.5); }
   @media screen and (min-width: 64em) {
     section#feature div.feature-container {
       padding-top: 18.75rem;
@@ -4889,7 +4891,7 @@ section#info {
 section#story {
   padding-top: 8.125rem; }
   section#story p {
-    font-size: 1.5rem;
+    font-size: 150%;
     line-height: 1.75rem; }
 
 section#crew {
@@ -5201,7 +5203,7 @@ POSTS & CONTENT STYLES
 
 .entry-content p:first-child {
   font-size: 150%;
-  line-height: 1; }
+  line-height: 1.75rem; }
 
 .entry-content img {
   max-width: 100%;
