@@ -961,6 +961,9 @@ POSTS & CONTENT STYLES
 			border-bottom: solid rem-calc(1) map-get($foundation-palette, acme-off-white);
 			font-style: italic;
 		}
+		a, a:visited {
+			font-style: underline;
+		}
 	}
 }
 

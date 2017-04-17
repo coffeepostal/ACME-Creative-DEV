@@ -5193,6 +5193,8 @@ POSTS & CONTENT STYLES
       margin-bottom: 0.5rem;
       border-bottom: solid 0.0625rem #fbfaf5;
       font-style: italic; }
+    #content div.content-block a, #content div.content-block a:visited {
+      font-style: underline; }
 
 .page-title .vcard {
   border: 0px;
